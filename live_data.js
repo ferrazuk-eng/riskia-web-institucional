@@ -1,11 +1,11 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 15/04/2026 09:49
+ * Session: 15/04/2026 09:55
  */
 
 const RISKIA_DASHBOARD = {
-    "update": "15/04/2026 09:49",
-    "header": "PULSO RISKIA: ESTABLE (VIX: 18.25)",
+    "update": "15/04/2026 09:55",
+    "header": "PULSO RISKIA: ESTABLE (VIX: 18.17)",
     "status": "ESTABLE",
     "color": "#2a9d8f",
     "ccl": "$1468.7",
@@ -16,21 +16,21 @@ const RISKIA_DASHBOARD = {
 };
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "15/04/2026 09:49",
+    "update_time": "15/04/2026 09:55",
     "macro": [
         {
             "label": "SPY",
-            "value": "6967.4",
+            "value": "+0.00%",
             "color": "blue"
         },
         {
             "label": "QQQ",
-            "value": "23639.1",
+            "value": "+0.00%",
             "color": "blue"
         },
         {
             "label": "VIX",
-            "value": "18.25",
+            "value": "18.17",
             "color": "emerald"
         },
         {
