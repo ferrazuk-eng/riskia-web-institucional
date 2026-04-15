@@ -1,36 +1,46 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 15/04/2026 09:40
+ * Session: 15/04/2026 09:49
  */
 
 const RISKIA_DASHBOARD = {
-    "update": "15/04/2026 09:40",
-    "header": "PULSO RISKIA: ESTABLE (VIX: 18.32)",
+    "update": "15/04/2026 09:49",
+    "header": "PULSO RISKIA: ESTABLE (VIX: 18.25)",
     "status": "ESTABLE",
     "color": "#2a9d8f",
-    "ccl": "$1466.9",
+    "ccl": "$1468.7",
     "radar_text": "Carga Autom\u00e1tica v4.1",
-    "agenda_text": "ASML (Hoy) | NFLX (16/04) | INFY (16/04)",
+    "agenda_text": "ABT (16/04) | RTX (21/04) | ISRG (21/04)",
     "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
     "insight_text": "Apertura de rueda con foco en Rebotes T\u00e1cticos y EARNINGS."
 };
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "15/04/2026 09:40",
+    "update_time": "15/04/2026 09:49",
     "macro": [
         {
+            "label": "SPY",
+            "value": "6967.4",
+            "color": "blue"
+        },
+        {
+            "label": "QQQ",
+            "value": "23639.1",
+            "color": "blue"
+        },
+        {
             "label": "VIX",
-            "value": "18.32",
+            "value": "18.25",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1466.9",
+            "value": "$1468.7",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "553",
+            "value": "528",
             "color": "riskiaGray"
         }
     ],
