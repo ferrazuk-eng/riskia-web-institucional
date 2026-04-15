@@ -1,41 +1,30 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 15/04/2026 12:45
+ * Session: 15/04/2026 18:31
+ * Motor: web_sync_v4.6
  */
 
-const RISKIA_DASHBOARD = {
-    "update": "15/04/2026 12:45",
-    "header": "PULSO RISKIA: ESTABLE (VIX: 17.74)",
-    "status": "ESTABLE",
-    "color": "#2a9d8f",
-    "ccl": "$1466.4",
-    "radar_text": "Carga Autom\u00e1tica v4.2",
-    "agenda_text": "ABT (16/04) | RTX (21/04) | ISRG (21/04)",
-    "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
-    "insight_text": "Apertura de rueda con foco en Rebotes T\u00e1cticos y EARNINGS."
-};
-
 const RISKIA_LIVE_DATA = {
-    "update_time": "15/04/2026 12:45",
+    "update_time": "15/04/2026 18:31",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.37%",
-            "color": "blue"
+            "value": "+0.79%",
+            "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+0.61%",
-            "color": "blue"
+            "value": "+1.40%",
+            "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "17.74",
+            "value": "18.17",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1466.4",
+            "value": "$1449.3",
             "color": "blue"
         },
         {
@@ -46,70 +35,84 @@ const RISKIA_LIVE_DATA = {
     ],
     "impulso": [
         {
-            "ticker": "URA",
+            "ticker": "ISRG",
             "status": "CONFIRMADO",
-            "motive": "Ruptura con volumen e ingresos institucionales detectados. | Sobre SMA 200 con RSI en zona de aceleraci\u00f3n (65.05).",
-            "Precio": 55.33,
-            "RSI_Valor": 65.05,
-            "Dist_POC_%": 2.2,
+            "motive": "`🐂 Cruce Alcista` validado. Reporta el 21/04, hay ventana de trading suficiente. **TAMAÑO: 1.93%.**",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 468.36,
+            "RSI_Valor": 49.26,
+            "Dist_POC_%": -2.1,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "IREN",
+            "ticker": "SPOT",
             "status": "CONFIRMADO",
-            "motive": "Fortaleza relativa superior al promedio del sector. | Mantener tendencia alcista institucional.",
-            "Precio": 47.37,
-            "RSI_Valor": 65.43,
-            "Dist_POC_%": 13.6,
+            "motive": "`🐂 Cruce Alcista` con momentum creciente. Sin bloqueos por earnings. **TAMAÑO: 1.21%.**",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 531.17,
+            "RSI_Valor": 62.17,
+            "Dist_POC_%": 11.8,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "ABT",
+            "ticker": "SPY",
             "status": "CONFIRMADO",
-            "motive": "Continuidad del gap de apertura sostenido con volumen.",
-            "Precio": 101.03,
-            "RSI_Valor": 34.88,
-            "Dist_POC_%": -6.9,
+            "motive": "Rebote técnico sobre el **Soporte POC** (-0.2% de distancia). La noticia de Goldman Sachs sobre el \"Regreso de Nvidia/Meta\" (Rule of 10) favorece el sentimiento del índice. **TAMAÑO: 3.60%.**",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 699.94,
+            "RSI_Valor": 69.77,
+            "Dist_POC_%": 3.0,
             "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
         {
-            "ticker": "KEEL",
-            "status": "CAUTELA",
-            "motive": "Aunque el Koncorde marca \"Inst. BUY\", el RSI ha superado 70 (71.07).",
-            "Precio": 2.88,
-            "RSI_Valor": 71.07,
-            "Dist_POC_%": 10.5,
+            "ticker": "ADP",
+            "status": "CONFIRMADO",
+            "motive": "Confluencia técnica perfecta (`RSI Pánico` + `Nivel Suelo`). No hay reportes de ganancias en la ventana de 14 días. Escaneo de noticias limpio de eventos disruptivos. **PROCEDER CON TAMAÑO 1.67%.**",
+            "section_id": 1,
+            "is_trap": false,
+            "Precio": 196.92,
+            "RSI_Valor": 40.41,
+            "Dist_POC_%": -23.1,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "XYZ",
-            "status": "CAUTELA",
-            "motive": "Bajo SMA 200. Se requiere consolidaci\u00f3n de base.",
-            "Precio": 68.02,
-            "RSI_Valor": 67.81,
-            "Dist_POC_%": 4.0,
-            "MACD_Cruce": "Mantener"
+            "ticker": "NKE",
+            "status": "CONFIRMADO",
+            "motive": "Reversión técnica pura. Sin noticias negativas adicionales en las últimas 72hs que justifiquen una mayor caída. **TAMAÑO SUGERIDO: 1.20%.**",
+            "section_id": 1,
+            "is_trap": false,
+            "Precio": 45.44,
+            "RSI_Valor": 36.16,
+            "Dist_POC_%": -30.2,
+            "MACD_Cruce": "🐂 Cruce Alcista"
         }
     ],
     "cautela": [
         {
-            "ticker": "GOOGL",
+            "ticker": "ABT",
             "status": "VETADO",
-            "motive": "Veredicto Institucional",
-            "Precio": 334.23,
-            "RSI_Valor": 70.15,
-            "Dist_POC_%": 9.0,
+            "motive": "* Reporta balances el **2026-04-16** (dentro de 72hs).",
+            "section_id": 1,
+            "is_trap": true,
+            "Precio": 101.56,
+            "RSI_Valor": 37.35,
+            "Dist_POC_%": -6.4,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "TSLA",
+            "ticker": "ASML",
             "status": "VETADO",
-            "motive": "Veredicto Institucional",
-            "Precio": 378.48,
-            "RSI_Valor": 52.64,
-            "Dist_POC_%": -15.6,
+            "motive": "* Reporta balances **MAÑANA (2026-04-15)** con relevancia MUY ALTA.",
+            "section_id": 2,
+            "is_trap": true,
+            "Precio": 1481.77,
+            "RSI_Valor": 59.61,
+            "Dist_POC_%": 9.0,
             "MACD_Cruce": "Mantener"
         }
     ]

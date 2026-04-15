@@ -1,6 +1,7 @@
 /**
- * RISKIA Live Content Integrator v4.5 (Audit Driven)
+ * RISKIA Live Content Integrator v4.6 (Audit Driven - Hotfixed)
  * Agente 11 - Web Integration & Data Hydration
+ * Last Update: 15/04/2026 13:23
  */
 
 function updateQuantHub() {
@@ -63,7 +64,14 @@ function renderQuantList(containerId, items, category) {
         // Formatting technical values
         const priceDisp = (item.Precio > 0) ? `$${item.Precio.toFixed(2)}` : 'N/D';
         const rsiDisp = (item.RSI_Valor > 0) ? item.RSI_Valor.toFixed(1) : 'N/D';
-        const crossLabel = item.MACD_Cruce || '---';
+        // Top Right Tag Logic: If 'cautela', show institutional status. Else show technical cross.
+        let topTagText = item.MACD_Cruce || '---';
+        let topTagColor = accentColor;
+
+        if (category === 'cautela') {
+            topTagText = item.status || 'VETADO';
+            topTagColor = 'bg-red-600'; // Hard red for traps to differentiate from 'MANTENER'
+        }
 
         card.innerHTML = `
             <div class="flex justify-between items-start">
@@ -71,8 +79,8 @@ function renderQuantList(containerId, items, category) {
                     <h5 class="text-lg font-black text-riskiaBlue tracking-tighter">${item.ticker}</h5>
                     <p class="text-[8px] font-black uppercase tracking-widest text-riskiaGray">${badgeText}</p>
                 </div>
-                <div class="${accentColor} text-white text-[7px] font-black px-2 py-0.5 uppercase tracking-widest">
-                    ${crossLabel}
+                <div class="${topTagColor} text-white text-[7px] font-black px-2 py-0.5 uppercase tracking-widest">
+                    ${topTagText}
                 </div>
             </div>
             
