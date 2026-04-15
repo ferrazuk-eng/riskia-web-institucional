@@ -98,5 +98,5 @@ const RISKIA_LIVE_DATA = {
             "Dist_POC_%": -6.5
         }
     ],
-    "update_time": "14/04/2026 19:08"
+    "update_time": "14/04/2026 19:18"
 };
