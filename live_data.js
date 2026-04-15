@@ -1,30 +1,30 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 15/04/2026 09:55
+ * Session: 15/04/2026 10:05
  */
 
 const RISKIA_DASHBOARD = {
-    "update": "15/04/2026 09:55",
+    "update": "15/04/2026 10:05",
     "header": "PULSO RISKIA: ESTABLE (VIX: 18.17)",
     "status": "ESTABLE",
     "color": "#2a9d8f",
     "ccl": "$1468.7",
-    "radar_text": "Carga Autom\u00e1tica v4.1",
+    "radar_text": "Carga Autom\u00e1tica v4.2",
     "agenda_text": "ABT (16/04) | RTX (21/04) | ISRG (21/04)",
     "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
     "insight_text": "Apertura de rueda con foco en Rebotes T\u00e1cticos y EARNINGS."
 };
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "15/04/2026 09:55",
+    "update_time": "15/04/2026 10:05",
     "macro": [
         {
-            "label": "SPY",
+            "label": "SPY (PM)",
             "value": "+0.00%",
             "color": "blue"
         },
         {
-            "label": "QQQ",
+            "label": "QQQ (PM)",
             "value": "+0.00%",
             "color": "blue"
         },
