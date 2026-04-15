@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO & Redes Sociales -->
     <title>RISKIA | Análisis de mercado diario para inversores en Argentina</title>
-    <meta name="description" content="Análisis de mercado diario para inversores en Argentina. Pre-market, lectura de rueda y cierre con contexto real. Canal de WhatsApp gratuito.">
-    <meta name="keywords" content="mercado financiero, análisis macro, contexto económico, inversión, riskia, bolsa de valores, criterio financiero">
+    <meta name="description"
+        content="Análisis de mercado diario para inversores en Argentina. Pre-market, lectura de rueda y cierre con contexto real. Canal de WhatsApp gratuito.">
+    <meta name="keywords"
+        content="mercado financiero, análisis macro, contexto económico, inversión, riskia, bolsa de valores, criterio financiero">
     <meta property="og:title" content="RISKIA | Estrategia y Mercado">
-    <meta property="og:description" content="Interpretamos lo que mueve el mercado. Profesionaliza tu criterio inversor.">
+    <meta property="og:description"
+        content="Interpretamos lo que mueve el mercado. Profesionaliza tu criterio inversor.">
     <meta property="og:image" content="https://riskia.com/logo.png">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- PapaParse -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
     <script>
         tailwind.config = {
@@ -39,18 +44,64 @@
     </script>
 
     <style>
-        html { scroll-behavior: smooth; }
-        body { background-color: #ffffff; color: #1E3A5F; -webkit-font-smoothing: antialiased; }
-        .hero-headline { font-size: clamp(2.5rem, 7vw, 5.5rem); line-height: 0.95; letter-spacing: -0.04em; font-weight: 1000; }
-        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); }
-        .border-subtle { border-color: rgba(30, 58, 95, 0.08); }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-        .animate-fade { animation: fadeIn 0.6s ease-out forwards; }
-        #whatsapp-sticky { transition: transform 0.3s ease, opacity 0.3s ease; }
-        #whatsapp-sticky.hidden-sticky { transform: translateY(150%); opacity: 0; pointer-events: none; }
-        .faq-answer { transition: all 0.3s ease; }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #1E3A5F;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .hero-headline {
+            font-size: clamp(2.5rem, 7vw, 5.5rem);
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+            font-weight: 1000;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+        }
+
+        .border-subtle {
+            border-color: rgba(30, 58, 95, 0.08);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+
+        #whatsapp-sticky {
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        #whatsapp-sticky.hidden-sticky {
+            transform: translateY(150%);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .faq-answer {
+            transition: all 0.3s ease;
+        }
     </style>
 </head>
+
 <body class="font-sans">
 
     <!-- Header / Navbar -->
@@ -59,13 +110,16 @@
             <div class="flex items-center gap-2">
                 <img src="logo.png" alt="RISKIA" class="h-12 w-auto object-contain">
             </div>
-            <nav class="hidden md:flex items-center gap-8 text-[11px] font-black uppercase tracking-widest text-riskiaGray">
+            <nav
+                class="hidden md:flex items-center gap-8 text-[11px] font-black uppercase tracking-widest text-riskiaGray">
                 <a href="#metodo" class="hover:text-riskiaBlue transition-colors">Método</a>
-                <a href="#live" class="hover:text-riskiaBlue transition-colors">Contenido Vivo</a>
+                <a href="#live" class="hover:text-riskiaBlue transition-colors">RADAR</a>
                 <a href="#ecosistema" class="hover:text-riskiaBlue transition-colors">Ecosistema</a>
-                <a href="#contacto" class="text-riskiaBlue px-6 py-2 border border-riskiaBlue/20 hover:bg-riskiaBlue hover:text-white transition-all">Sumarme</a>
+                <a href="#contacto"
+                    class="text-riskiaBlue px-6 py-2 border border-riskiaBlue/20 hover:bg-riskiaBlue hover:text-white transition-all">Sumarme</a>
             </nav>
-            <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank" class="md:hidden bg-[#25D366] text-white p-2 rounded-full shadow-lg">
+            <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank"
+                class="md:hidden bg-[#25D366] text-white p-2 rounded-full shadow-lg">
                 <i data-lucide="message-circle"></i>
             </a>
         </div>
@@ -75,25 +129,28 @@
     <section class="pt-32 pb-12 md:pt-48 md:pb-28 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
             <div class="lg:col-span-8 animate-fade" style="animation-delay: 0.1s;">
-                <h1 class="hero-headline mb-10 uppercase tracking-tighter">Interpretar el mercado es una ventaja<span class="text-riskiaOrange">.</span></h1>
+                <h1 class="hero-headline mb-10 uppercase tracking-tighter">Interpretar el mercado es una ventaja<span
+                        class="text-riskiaOrange">.</span></h1>
                 <p class="text-xl md:text-3xl text-riskiaGray font-bold leading-tight mb-8 max-w-2xl">
                     Nosotros te mostramos qué mirar.<br> Y por qué importa.
                 </p>
                 <p class="text-[12px] md:text-sm font-bold uppercase tracking-widest text-riskiaGray mb-12">
-                   Interpretación táctica del contexto global en tiempo real.
+                    Interpretación táctica del contexto global en tiempo real.
                 </p>
-                
+
                 <div class="flex flex-col sm:flex-row gap-4 mb-4">
-                    <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank" class="bg-riskiaBlue text-white px-10 py-5 font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 hover:bg-black transition-all shadow-xl">
+                    <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank"
+                        class="bg-riskiaBlue text-white px-10 py-5 font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 hover:bg-black transition-all shadow-xl">
                         <i data-lucide="message-circle" class="w-5 h-5"></i>
                         Acceder al contexto del mercado
                     </a>
-                    <a href="#live" class="bg-white border-2 border-riskiaBlue text-riskiaBlue px-10 py-5 font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 hover:bg-riskiaPaper transition-all">
+                    <a href="#live"
+                        class="bg-white border-2 border-riskiaBlue text-riskiaBlue px-10 py-5 font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 hover:bg-riskiaPaper transition-all">
                         <i data-lucide="eye" class="w-5 h-5"></i>
                         Ver muestra del canal
                     </a>
                 </div>
-                
+
                 <div class="space-y-1 mb-8">
                     <p class="text-[10px] uppercase font-bold tracking-widest text-riskiaBlue">
                         Contexto real. Interpretación clara. Criterio aplicado.
@@ -102,16 +159,18 @@
                         Lectura profesional del mercado global.
                     </p>
                 </div>
-                
+
                 <p class="text-[10px] uppercase font-bold tracking-widest text-riskiaGray opacity-60">
                     Contenido educativo. No constituye asesoramiento de inversión.
                 </p>
             </div>
-            
+
             <div class="lg:col-span-4 hidden lg:block animate-fade" style="animation-delay: 0.3s;">
                 <div class="relative">
                     <div class="absolute -inset-4 bg-riskiaOrange/5 -rotate-2 rounded-2xl"></div>
-                    <img src="market.png" alt="Market Analysis" class="relative rounded-xl grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl border border-riskiaBlue/10" onerror="this.src='https://images.unsplash.com/photo-1611974717482-982524ff0c7d?w=800&q=80'">
+                    <img src="market.png" alt="Market Analysis"
+                        class="relative rounded-xl grayscale hover:grayscale-0 transition-all duration-1000 shadow-2xl border border-riskiaBlue/10"
+                        onerror="this.src='https://images.unsplash.com/photo-1611974717482-982524ff0c7d?w=800&q=80'">
                 </div>
             </div>
         </div>
@@ -149,12 +208,14 @@
             <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-20 mb-16 text-center">
                 <div>
                     <p class="text-4xl md:text-5xl font-black text-riskiaBlue tracking-tighter">Comunidad</p>
-                    <p class="text-[10px] uppercase font-black tracking-widest text-riskiaGray mt-1">Miembros activos</p>
+                    <p class="text-[10px] uppercase font-black tracking-widest text-riskiaGray mt-1">Miembros activos
+                    </p>
                 </div>
                 <div class="w-px h-12 bg-riskiaBlue/10 hidden md:block"></div>
                 <div>
                     <p class="text-4xl md:text-5xl font-black text-riskiaBlue tracking-tighter">Diario</p>
-                    <p class="text-[10px] uppercase font-black tracking-widest text-riskiaGray mt-1">Pre-market, rueda y cierre</p>
+                    <p class="text-[10px] uppercase font-black tracking-widest text-riskiaGray mt-1">Pre-market, rueda y
+                        cierre</p>
                 </div>
                 <div class="w-px h-12 bg-riskiaBlue/10 hidden md:block"></div>
                 <div>
@@ -165,9 +226,12 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="bg-white p-8 border border-subtle shadow-sm">
-                    <p class="text-sm text-riskiaBlue font-bold leading-relaxed mb-6">"Empecé a entender qué miraban los profesionales antes de operar. El pre-market de RISKIA cambió cómo arranco cada jornada."</p>
+                    <p class="text-sm text-riskiaBlue font-bold leading-relaxed mb-6">"Empecé a entender qué miraban los
+                        profesionales antes de operar. El pre-market de RISKIA cambió cómo arranco cada jornada."</p>
                     <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-riskiaBlue/10 flex items-center justify-center font-black text-riskiaBlue text-sm">M</div>
+                        <div
+                            class="w-8 h-8 rounded-full bg-riskiaBlue/10 flex items-center justify-center font-black text-riskiaBlue text-sm">
+                            M</div>
                         <div>
                             <p class="text-[11px] font-black uppercase tracking-widest text-riskiaBlue">Martín G.</p>
                             <p class="text-[10px] text-riskiaGray uppercase tracking-widest">Inversor retail</p>
@@ -175,9 +239,12 @@
                     </div>
                 </div>
                 <div class="bg-white p-8 border border-subtle shadow-sm">
-                    <p class="text-sm text-riskiaBlue font-bold leading-relaxed mb-6">"Lo que más valoro es que no te dan señales: te enseñan a leer. Eso vale infinito más que un tip."</p>
+                    <p class="text-sm text-riskiaBlue font-bold leading-relaxed mb-6">"Lo que más valoro es que no te
+                        dan señales: te enseñan a leer. Eso vale infinito más que un tip."</p>
                     <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-riskiaBlue/10 flex items-center justify-center font-black text-riskiaBlue text-sm">S</div>
+                        <div
+                            class="w-8 h-8 rounded-full bg-riskiaBlue/10 flex items-center justify-center font-black text-riskiaBlue text-sm">
+                            S</div>
                         <div>
                             <p class="text-[11px] font-black uppercase tracking-widest text-riskiaBlue">Sofía R.</p>
                             <p class="text-[10px] text-riskiaGray uppercase tracking-widest">Analista financiera</p>
@@ -185,9 +252,13 @@
                     </div>
                 </div>
                 <div class="bg-white p-8 border border-subtle shadow-sm">
-                    <p class="text-sm text-riskiaBlue font-bold leading-relaxed mb-6">"Probé muchos canales de análisis. RISKIA es el único donde siento que el contenido está pensado para gente que quiere entender."</p>
+                    <p class="text-sm text-riskiaBlue font-bold leading-relaxed mb-6">"Probé muchos canales de análisis.
+                        RISKIA es el único donde siento que el contenido está pensado para gente que quiere entender."
+                    </p>
                     <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-riskiaBlue/10 flex items-center justify-center font-black text-riskiaBlue text-sm">F</div>
+                        <div
+                            class="w-8 h-8 rounded-full bg-riskiaBlue/10 flex items-center justify-center font-black text-riskiaBlue text-sm">
+                            F</div>
                         <div>
                             <p class="text-[11px] font-black uppercase tracking-widest text-riskiaBlue">Federico L.</p>
                             <p class="text-[10px] text-riskiaGray uppercase tracking-widest">Inversor independiente</p>
@@ -201,22 +272,27 @@
     <!-- Qué recibís (Values Block) -->
     <section class="pb-24 pt-16 px-6">
         <div class="max-w-7xl mx-auto border-t border-subtle pt-16">
-            <h3 class="text-[10px] font-black uppercase tracking-[0.4em] text-riskiaGray mb-10 text-center">Al sumarte recibís:</h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center uppercase font-black tracking-wider text-riskiaBlue">
+            <h3 class="text-[10px] font-black uppercase tracking-[0.4em] text-riskiaGray mb-10 text-center">Al sumarte
+                recibís:</h3>
+            <div
+                class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center uppercase font-black tracking-wider text-riskiaBlue">
                 <div class="flex flex-col items-center gap-4 group">
-                    <div class="bg-riskiaPaper p-4 rounded-full group-hover:bg-riskiaOrange group-hover:text-white transition-all">
+                    <div
+                        class="bg-riskiaPaper p-4 rounded-full group-hover:bg-riskiaOrange group-hover:text-white transition-all">
                         <i data-lucide="sun" class="w-6 h-6"></i>
                     </div>
                     <span>Pre-market diario</span>
                 </div>
                 <div class="flex flex-col items-center gap-4 group">
-                    <div class="bg-riskiaPaper p-4 rounded-full group-hover:bg-riskiaOrange group-hover:text-white transition-all">
+                    <div
+                        class="bg-riskiaPaper p-4 rounded-full group-hover:bg-riskiaOrange group-hover:text-white transition-all">
                         <i data-lucide="line-chart" class="w-6 h-6"></i>
                     </div>
                     <span>Lectura durante la rueda</span>
                 </div>
                 <div class="flex flex-col items-center gap-4 group">
-                    <div class="bg-riskiaPaper p-4 rounded-full group-hover:bg-riskiaOrange group-hover:text-white transition-all">
+                    <div
+                        class="bg-riskiaPaper p-4 rounded-full group-hover:bg-riskiaOrange group-hover:text-white transition-all">
                         <i data-lucide="moon" class="w-6 h-6"></i>
                     </div>
                     <span>Cierre con contexto real</span>
@@ -229,24 +305,29 @@
     <section id="metodo" class="py-24 bg-riskiaPaper border-y border-subtle">
         <div class="max-w-7xl mx-auto px-6">
             <div class="max-w-4xl">
-                <h2 class="text-[11px] font-black uppercase tracking-[0.5em] text-riskiaOrange mb-6 italic">Filosofía Riskia</h2>
-                <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter mb-12 uppercase">Interpretación objetiva <br>del flujo global.</h3>
-                
+                <h2 class="text-[11px] font-black uppercase tracking-[0.5em] text-riskiaOrange mb-6 italic">Filosofía
+                    Riskia</h2>
+                <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter mb-12 uppercase">Interpretación
+                    objetiva <br>del flujo global.</h3>
+
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-riskiaBlue">
                     <div class="space-y-4">
                         <i data-lucide="globe" class="text-riskiaBlue w-8 h-8"></i>
                         <h4 class="font-black uppercase tracking-widest">Interpretación Macro</h4>
-                        <p class="text-sm text-riskiaGray font-bold">Analizamos las fuerzas estructurales que mueven el capital global.</p>
+                        <p class="text-sm text-riskiaGray font-bold">Analizamos las fuerzas estructurales que mueven el
+                            capital global.</p>
                     </div>
                     <div class="space-y-4">
                         <i data-lucide="bar-chart-3" class="text-riskiaBlue w-8 h-8"></i>
                         <h4 class="font-black uppercase tracking-widest">Lectura de Mercado</h4>
-                        <p class="text-sm text-riskiaGray font-bold">Seguimiento de precio y volumen para identificar asimetrías tácticas.</p>
+                        <p class="text-sm text-riskiaGray font-bold">Seguimiento de precio y volumen para identificar
+                            asimetrías tácticas.</p>
                     </div>
                     <div class="space-y-4">
                         <i data-lucide="layers" class="text-riskiaBlue w-8 h-8"></i>
                         <h4 class="font-black uppercase tracking-widest">Análisis Estructural</h4>
-                        <p class="text-sm text-riskiaGray font-bold">Diseño de tesis basadas en fundamentos sólidos de largo plazo.</p>
+                        <p class="text-sm text-riskiaGray font-bold">Diseño de tesis basadas en fundamentos sólidos de
+                            largo plazo.</p>
                     </div>
                 </div>
             </div>
@@ -258,9 +339,11 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
                 <div class="lg:col-span-12">
-                    <h3 class="text-3xl md:text-6xl font-black uppercase italic tracking-tighter mb-8 leading-none">Construimos <br>Criterio Profesional.</h3>
-                    <p class="text-xl text-white/70 font-bold mb-12">Nuestra honestidad es nuestro mayor activo. No somos una fábrica de señales.</p>
-                    
+                    <h3 class="text-3xl md:text-6xl font-black uppercase italic tracking-tighter mb-8 leading-none">
+                        Construimos <br>Criterio Profesional.</h3>
+                    <p class="text-xl text-white/70 font-bold mb-12">Nuestra honestidad es nuestro mayor activo. No
+                        somos una fábrica de señales.</p>
+
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                         <ul class="space-y-6">
                             <li class="flex items-center gap-4 text-sm font-black uppercase opacity-60 tracking-wider">
@@ -270,7 +353,8 @@
                                 <i data-lucide="x" class="text-riskiaOrange w-4 h-4"></i> No prometemos resultados
                             </li>
                             <li class="flex items-center gap-4 text-sm font-black uppercase opacity-60 tracking-wider">
-                                <i data-lucide="x" class="text-riskiaOrange w-4 h-4"></i> No buscamos anticipar al mercado
+                                <i data-lucide="x" class="text-riskiaOrange w-4 h-4"></i> No buscamos anticipar al
+                                mercado
                             </li>
                         </ul>
                         <ul class="space-y-8">
@@ -290,44 +374,105 @@
         </div>
     </section>
 
-    <!-- Contenido en Vivo -->
-    <section id="live" class="py-24 bg-riskiaPaper">
-        <div class="max-w-7xl mx-auto px-6 text-center md:text-left">
-            <h2 class="text-[11px] font-black uppercase tracking-[0.5em] text-riskiaOrange mb-4">Última actualización del canal:</h2>
-            <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter uppercase mb-16">Interpretación en tiempo real.</h3>
-            
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
-                <div class="bg-white p-8 md:p-12 border border-subtle shadow-lg text-left" id="premarket-content"></div>
-                <div class="bg-white p-8 md:p-12 border border-subtle shadow-lg text-left" id="cierre-content"></div>
-                <div class="bg-white p-8 md:p-12 border border-subtle shadow-lg text-left" id="informe-content"></div>
+    <!-- Contenido en Vivo / Quant Studio v4 -->
+    <section id="live" class="py-24 bg-riskiaPaper border-y border-subtle">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div>
+                    <h2 class="text-[11px] font-black uppercase tracking-[0.5em] text-riskiaOrange mb-4">RADAR DE
+                        MERCADO RISKIA</h2>
+                    <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter uppercase leading-none">ANÁLISIS
+                        DIARIO</h3>
+                </div>
+                <div class="bg-white p-4 border border-subtle shadow-sm flex items-center gap-4">
+                    <div id="status-dot" class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></div>
+                    <span id="update-timer"
+                        class="text-[10px] font-black uppercase tracking-widest text-riskiaGray">Cargando Data
+                        Lake...</span>
+                </div>
             </div>
-            
-            <p class="text-[10px] font-black uppercase tracking-widest text-riskiaGray text-center">
-                Este es el tipo de contenido que reciben los miembros diariamente.
-            </p>
+
+            <!-- Cabecera Macro Hub -->
+            <div id="macro-container" class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
+                <!-- Hydrated by JS -->
+            </div>
+
+            <div id="quant-hub-container" class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Columna 1: Impulso -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-2 mb-6">
+                        <i data-lucide="shield-check" class="text-emerald-500 w-4 h-4"></i>
+                        <h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-riskiaBlue">Oportunidad
+                            Auditada</h4>
+                    </div>
+                    <div id="impulso-list" class="space-y-4"></div>
+                </div>
+
+                <!-- Columna 2: Ciclo -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-2 mb-6">
+                        <i data-lucide="search" class="text-amber-500 w-4 h-4"></i>
+                        <h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-riskiaBlue">Cautela Auditada
+                        </h4>
+                    </div>
+                    <div id="ciclo-list" class="space-y-4"></div>
+                </div>
+
+                <!-- Columna 3: Cautela -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-2 mb-6">
+                        <i data-lucide="info" class="text-riskiaOrange w-4 h-4"></i>
+                        <h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-riskiaBlue">Trampas Detectadas
+                        </h4>
+                    </div>
+                    <div id="cautela-list" class="space-y-4"></div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="https://wa.me/5491140626605?text=Hola!+Quiero+ver+el+analisis+completo+de+la+rueda."
+                    target="_blank"
+                    class="inline-flex items-center gap-4 bg-riskiaBlue text-white px-8 py-4 font-black uppercase tracking-widest text-[10px] hover:bg-black transition-all shadow-xl">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    Ver análisis completo en WhatsApp
+                </a>
+            </div>
         </div>
     </section>
 
     <!-- Cómo funciona (Restored Section) -->
     <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-6">
-            <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter mb-16 uppercase text-center">Un recorrido lógico.</h3>
+            <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter mb-16 uppercase text-center">Un recorrido
+                lógico.</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
                 <div class="hidden md:block absolute top-[44px] left-0 w-full h-0.5 bg-riskiaBlue/5 -z-10"></div>
                 <div class="text-center group">
-                    <div class="w-12 h-12 rounded-full bg-riskiaBlue text-white flex items-center justify-center font-black mx-auto mb-8 shadow-lg group-hover:bg-riskiaOrange transition-colors">1</div>
-                    <h4 class="font-black uppercase italic tracking-widest mb-4">Antes de las 9am recibís el pre-market</h4>
-                    <p class="text-sm text-riskiaGray italic font-light">Las variables clave del día: macro, futuros, sectores en foco y niveles a monitorear. Todo antes de que abra el mercado.</p>
+                    <div
+                        class="w-12 h-12 rounded-full bg-riskiaBlue text-white flex items-center justify-center font-black mx-auto mb-8 shadow-lg group-hover:bg-riskiaOrange transition-colors">
+                        1</div>
+                    <h4 class="font-black uppercase italic tracking-widest mb-4">Informe pre-market
+                    </h4>
+                    <p class="text-sm text-riskiaGray italic font-light">Las variables clave del día: macro, futuros,
+                        sectores en foco y niveles a monitorear. Todo antes de que abra el mercado.</p>
                 </div>
                 <div class="text-center group">
-                    <div class="w-12 h-12 rounded-full bg-riskiaBlue text-white flex items-center justify-center font-black mx-auto mb-8 shadow-lg group-hover:bg-riskiaOrange transition-colors">2</div>
-                    <h4 class="font-black uppercase italic tracking-widest mb-4">Durante la rueda, lectura en tiempo real</h4>
-                    <p class="text-sm text-riskiaGray italic font-light">Actualizaciones de contexto mientras el mercado opera: datos que mueven precio, flujos institucionales y cambios de narrativa.</p>
+                    <div
+                        class="w-12 h-12 rounded-full bg-riskiaBlue text-white flex items-center justify-center font-black mx-auto mb-8 shadow-lg group-hover:bg-riskiaOrange transition-colors">
+                        2</div>
+                    <h4 class="font-black uppercase italic tracking-widest mb-4">Durante la rueda, lectura en tiempo
+                        real</h4>
+                    <p class="text-sm text-riskiaGray italic font-light">Actualizaciones de contexto mientras el mercado
+                        opera: datos que mueven precio, flujos institucionales y cambios de narrativa.</p>
                 </div>
                 <div class="text-center group">
-                    <div class="w-12 h-12 rounded-full bg-riskiaBlue text-white flex items-center justify-center font-black mx-auto mb-8 shadow-lg group-hover:bg-riskiaOrange transition-colors">3</div>
-                    <h4 class="font-black uppercase italic tracking-widest mb-4">Al cierre, el contexto real del día</h4>
-                    <p class="text-sm text-riskiaGray italic font-light">Un cierre que explica qué pasó y por qué. Más informes mensuales con tesis estructurales para entender el panorama de largo plazo.</p>
+                    <div
+                        class="w-12 h-12 rounded-full bg-riskiaBlue text-white flex items-center justify-center font-black mx-auto mb-8 shadow-lg group-hover:bg-riskiaOrange transition-colors">
+                        3</div>
+                    <h4 class="font-black uppercase italic tracking-widest mb-4">Al cierre, el contexto real del día
+                    </h4>
+                    <p class="text-sm text-riskiaGray italic font-light">Un cierre que explica qué pasó y por qué. Más
+                        informes mensuales con tesis estructurales para entender el panorama de largo plazo.</p>
                 </div>
             </div>
         </div>
@@ -336,54 +481,75 @@
     <!-- Dónde seguir el análisis (New Section) -->
     <section id="ecosistema" class="py-24 bg-riskiaPaper border-y border-subtle">
         <div class="max-w-7xl mx-auto px-6">
-            <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter mb-16 uppercase text-center">Dónde seguir el análisis.</h3>
+            <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter mb-16 uppercase text-center">Dónde seguir
+                el análisis.</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- WhatsApp Strategic Block -->
-                <div class="bg-white p-8 border-2 border-riskiaOrange/20 shadow-xl flex flex-col justify-between group hover:border-riskiaOrange transition-all">
+                <div
+                    class="bg-white p-8 border-2 border-riskiaOrange/20 shadow-xl flex flex-col justify-between group hover:border-riskiaOrange transition-all">
                     <div>
-                        <div class="w-12 h-12 bg-riskiaOrange text-white flex items-center justify-center rounded-full mb-6">
+                        <div
+                            class="w-12 h-12 bg-riskiaOrange text-white flex items-center justify-center rounded-full mb-6">
                             <i data-lucide="message-circle" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-black uppercase tracking-tighter text-riskiaBlue mb-2">WhatsApp</h4>
-                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">Contexto diario del mercado en tiempo real.</p>
+                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">
+                            Contexto diario del mercado en tiempo real.</p>
                     </div>
-                    <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank" class="bg-riskiaOrange text-white py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] shadow-lg hover:brightness-110 transition-all">Sumarme al canal</a>
+                    <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank"
+                        class="bg-riskiaOrange text-white py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] shadow-lg hover:brightness-110 transition-all">Sumarme
+                        al canal</a>
                 </div>
 
                 <!-- Instagram Strategic Block -->
-                <div class="bg-white p-8 border border-subtle shadow-lg flex flex-col justify-between group hover:border-riskiaBlue transition-all">
+                <div
+                    class="bg-white p-8 border border-subtle shadow-lg flex flex-col justify-between group hover:border-riskiaBlue transition-all">
                     <div>
-                        <div class="w-12 h-12 bg-riskiaBlue text-white flex items-center justify-center rounded-full mb-6">
+                        <div
+                            class="w-12 h-12 bg-riskiaBlue text-white flex items-center justify-center rounded-full mb-6">
                             <i data-lucide="instagram" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-black uppercase tracking-tighter text-riskiaBlue mb-2">Instagram</h4>
-                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">Visualización y síntesis del mercado.</p>
+                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">
+                            Visualización y síntesis del mercado.</p>
                     </div>
-                    <a href="https://instagram.com/riskiafinance" target="_blank" class="border border-riskiaBlue text-riskiaBlue py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] hover:bg-riskiaBlue hover:text-white transition-all">Seguir ahora</a>
+                    <a href="https://instagram.com/riskiafinance" target="_blank"
+                        class="border border-riskiaBlue text-riskiaBlue py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] hover:bg-riskiaBlue hover:text-white transition-all">Seguir
+                        ahora</a>
                 </div>
 
                 <!-- YouTube Strategic Block -->
-                <div class="bg-white p-8 border border-subtle shadow-lg flex flex-col justify-between group hover:border-riskiaBlue transition-all">
+                <div
+                    class="bg-white p-8 border border-subtle shadow-lg flex flex-col justify-between group hover:border-riskiaBlue transition-all">
                     <div>
-                        <div class="w-12 h-12 bg-riskiaBlue text-white flex items-center justify-center rounded-full mb-6">
+                        <div
+                            class="w-12 h-12 bg-riskiaBlue text-white flex items-center justify-center rounded-full mb-6">
                             <i data-lucide="youtube" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-black uppercase tracking-tighter text-riskiaBlue mb-2">YouTube</h4>
-                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">Análisis en profundidad y táctico.</p>
+                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">
+                            Análisis en profundidad y táctico.</p>
                     </div>
-                    <a href="https://youtube.com/@RISKIAFINANCE" target="_blank" class="border border-riskiaBlue text-riskiaBlue py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] hover:bg-riskiaBlue hover:text-white transition-all">Ver contenido</a>
+                    <a href="https://youtube.com/@RISKIAFINANCE" target="_blank"
+                        class="border border-riskiaBlue text-riskiaBlue py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] hover:bg-riskiaBlue hover:text-white transition-all">Ver
+                        contenido</a>
                 </div>
 
                 <!-- X Strategic Block -->
-                <div class="bg-white p-8 border border-subtle shadow-lg flex flex-col justify-between group hover:border-riskiaBlue transition-all">
+                <div
+                    class="bg-white p-8 border border-subtle shadow-lg flex flex-col justify-between group hover:border-riskiaBlue transition-all">
                     <div>
-                        <div class="w-12 h-12 bg-riskiaBlue text-white flex items-center justify-center rounded-full mb-6">
+                        <div
+                            class="w-12 h-12 bg-riskiaBlue text-white flex items-center justify-center rounded-full mb-6">
                             <i data-lucide="twitter" class="w-6 h-6"></i>
                         </div>
                         <h4 class="text-xl font-black uppercase tracking-tighter text-riskiaBlue mb-2">X</h4>
-                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">Lectura en tiempo real y noticias clave.</p>
+                        <p class="text-sm text-riskiaGray font-bold uppercase tracking-wider leading-snug mb-8 italic">
+                            Lectura en tiempo real y noticias clave.</p>
                     </div>
-                    <a href="https://x.com/riskiafinance" target="_blank" class="border border-riskiaBlue text-riskiaBlue py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] hover:bg-riskiaBlue hover:text-white transition-all">Unirse al hilo</a>
+                    <a href="https://x.com/riskiafinance" target="_blank"
+                        class="border border-riskiaBlue text-riskiaBlue py-4 px-6 text-center font-black uppercase tracking-widest text-[10px] hover:bg-riskiaBlue hover:text-white transition-all">Unirse
+                        al hilo</a>
                 </div>
             </div>
         </div>
@@ -392,35 +558,47 @@
     <!-- FAQ Section -->
     <section class="py-24 px-6 bg-white border-y border-subtle">
         <div class="max-w-3xl mx-auto">
-            <h3 class="text-3xl md:text-4xl font-black tracking-tighter uppercase mb-16 text-center">Preguntas frecuentes</h3>
+            <h3 class="text-3xl md:text-4xl font-black tracking-tighter uppercase mb-16 text-center">Preguntas
+                frecuentes</h3>
             <div class="space-y-0 divide-y divide-riskiaBlue/8">
                 <div class="faq-item py-6 cursor-pointer group" onclick="toggleFaq(this)">
                     <div class="flex justify-between items-center gap-4">
-                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿El canal es gratuito?</h4>
+                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿El canal es gratuito?
+                        </h4>
                         <i data-lucide="plus" class="w-4 h-4 text-riskiaOrange faq-icon transition-transform"></i>
                     </div>
-                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">Sí, el canal es 100% gratuito. Recibís el pre-market, la lectura durante la rueda y el cierre sin costo alguno.</p>
+                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">Sí, el canal es
+                        100% gratuito. Recibís el pre-market, la lectura durante la rueda y el cierre sin costo alguno.
+                    </p>
                 </div>
                 <div class="faq-item py-6 cursor-pointer group" onclick="toggleFaq(this)">
                     <div class="flex justify-between items-center gap-4">
-                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿Qué mercados analizan?</h4>
+                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿Qué mercados analizan?
+                        </h4>
                         <i data-lucide="plus" class="w-4 h-4 text-riskiaOrange faq-icon transition-transform"></i>
                     </div>
-                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">Analizamos mercados globales con foco en EE.UU. (S&P 500, Nasdaq), activos argentinos (CEDEARs, Bonos) y variables macro clave.</p>
+                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">Analizamos
+                        mercados globales con foco en EE.UU. (S&P 500, Nasdaq), activos argentinos (CEDEARs, Bonos) y
+                        variables macro clave.</p>
                 </div>
                 <div class="faq-item py-6 cursor-pointer group" onclick="toggleFaq(this)">
                     <div class="flex justify-between items-center gap-4">
-                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿Es un grupo de WhatsApp?</h4>
+                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿Es un grupo de
+                            WhatsApp?</h4>
                         <i data-lucide="plus" class="w-4 h-4 text-riskiaOrange faq-icon transition-transform"></i>
                     </div>
-                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">Es un canal de difusión. No es un grupo donde todos hablan; solo nosotros enviamos información para evitar el ruido.</p>
+                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">Es un canal de
+                        difusión. No es un grupo donde todos hablan; solo nosotros enviamos información para evitar el
+                        ruido.</p>
                 </div>
                 <div class="faq-item py-6 cursor-pointer group" onclick="toggleFaq(this)">
                     <div class="flex justify-between items-center gap-4">
-                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿Dan señales de compra/venta?</h4>
+                        <h4 class="font-black uppercase tracking-widest text-sm text-riskiaBlue">¿Dan señales de
+                            compra/venta?</h4>
                         <i data-lucide="plus" class="w-4 h-4 text-riskiaOrange faq-icon transition-transform"></i>
                     </div>
-                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">No. Brindamos contexto y criterio para que vos tomes tus propias decisiones fundamentadas.</p>
+                    <p class="faq-answer hidden mt-4 text-sm text-riskiaGray font-bold leading-relaxed">No. Brindamos
+                        contexto y criterio para que vos tomes tus propias decisiones fundamentadas.</p>
                 </div>
             </div>
         </div>
@@ -429,13 +607,16 @@
     <!-- CTA Final -->
     <section id="contacto" class="py-32 px-6 bg-white border-t border-subtle">
         <div class="max-w-4xl mx-auto text-center">
-            <h3 class="hero-headline italic mb-10 uppercase tracking-tighter">El mercado no se predice. <br>Se interpreta<span class="text-riskiaOrange">.</span></h3>
+            <h3 class="hero-headline italic mb-10 uppercase tracking-tighter">El mercado no se predice. <br>Se
+                interpreta<span class="text-riskiaOrange">.</span></h3>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank" class="w-full sm:w-auto bg-riskiaBlue text-white px-12 py-6 font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 hover:bg-black transition-all shadow-2xl">
+                <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank"
+                    class="w-full sm:w-auto bg-riskiaBlue text-white px-12 py-6 font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 hover:bg-black transition-all shadow-2xl">
                     <i data-lucide="message-circle" class="w-6 h-6"></i>
                     Acceder al canal ahora
                 </a>
-                <a href="https://wa.me/5491140626605?text=Hola!+Quiero+ver+el+último+informe+de+RISKIA." target="_blank" class="w-full sm:w-auto bg-white border-2 border-riskiaBlue text-riskiaBlue px-12 py-6 font-black uppercase tracking-widest text-sm hover:bg-riskiaPaper transition-all">
+                <a href="https://wa.me/5491140626605?text=Hola!+Quiero+ver+el+último+informe+de+RISKIA." target="_blank"
+                    class="w-full sm:w-auto bg-white border-2 border-riskiaBlue text-riskiaBlue px-12 py-6 font-black uppercase tracking-widest text-sm hover:bg-riskiaPaper transition-all">
                     Ver último informe
                 </a>
             </div>
@@ -449,66 +630,85 @@
                 <div class="md:col-span-4">
                     <img src="logo.png" alt="RISKIA" class="h-12 w-auto object-contain mb-6">
                     <p class="text-sm text-riskiaGray font-black uppercase tracking-widest leading-relaxed">
-                        Inteligencia aplicada al contexto financiero. Un método profesional para navegar el ruido global.
+                        Inteligencia aplicada al contexto financiero. Un método profesional para navegar el ruido
+                        global.
                     </p>
                     <p class="text-xs text-riskiaGray mt-4 font-black uppercase tracking-widest opacity-60">
                         Lectura profesional del mercado global.
                     </p>
                 </div>
                 <!-- Links Column -->
-                <div class="md:col-span-3 italic font-black uppercase tracking-widest text-riskiaBlue text-[11px] space-y-4">
+                <div
+                    class="md:col-span-3 italic font-black uppercase tracking-widest text-riskiaBlue text-[11px] space-y-4">
                     <h5 class="text-riskiaGray text-[10px] tracking-[0.4em] mb-6 uppercase">Explorar</h5>
                     <a href="#metodo" class="block hover:text-riskiaOrange transition-colors">Método RISKIA</a>
-                    <a href="#live" class="block hover:text-riskiaOrange transition-colors">Contenido en vivo</a>
+                    <a href="#live" class="block hover:text-riskiaOrange transition-colors">Radar</a>
                     <a href="#contacto" class="block hover:text-riskiaOrange transition-colors">Soporte técnico</a>
                 </div>
                 <!-- Strategic Ecosystem Column -->
-                <div class="md:col-span-5 italic font-black uppercase tracking-widest text-riskiaBlue text-[11px] space-y-6">
+                <div
+                    class="md:col-span-5 italic font-black uppercase tracking-widest text-riskiaBlue text-[11px] space-y-6">
                     <h5 class="text-riskiaGray text-[10px] tracking-[0.4em] mb-6 uppercase">Ecosistema de Contenido</h5>
-                    
-                    <a href="https://wa.me/5491140626605" target="_blank" class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
+
+                    <a href="https://wa.me/5491140626605" target="_blank"
+                        class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
                         <i data-lucide="message-circle" class="w-5 h-5 text-riskiaOrange shrink-0"></i>
                         <div>
                             <span class="block">Canal de WhatsApp</span>
-                            <span class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Contexto diario en tiempo real</span>
+                            <span
+                                class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Contexto
+                                diario en tiempo real</span>
                         </div>
                     </a>
 
-                    <a href="https://instagram.com/riskiafinance" target="_blank" class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
+                    <a href="https://instagram.com/riskiafinance" target="_blank"
+                        class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
                         <i data-lucide="instagram" class="w-5 h-5 text-riskiaBlue shrink-0"></i>
                         <div>
                             <span class="block">Instagram Business</span>
-                            <span class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Síntesis y visualización de mercado</span>
+                            <span
+                                class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Síntesis
+                                y visualización de mercado</span>
                         </div>
                     </a>
 
-                    <a href="https://youtube.com/@RISKIAFINANCE" target="_blank" class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
+                    <a href="https://youtube.com/@RISKIAFINANCE" target="_blank"
+                        class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
                         <i data-lucide="youtube" class="w-5 h-5 text-riskiaBlue shrink-0"></i>
                         <div>
                             <span class="block">YouTube Channel</span>
-                            <span class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Análisis técnico en profundidad</span>
+                            <span
+                                class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Análisis
+                                técnico en profundidad</span>
                         </div>
                     </a>
 
-                    <a href="https://x.com/riskiafinance" target="_blank" class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
+                    <a href="https://x.com/riskiafinance" target="_blank"
+                        class="flex items-start gap-4 hover:text-riskiaOrange transition-colors group">
                         <i data-lucide="twitter" class="w-5 h-5 text-riskiaBlue shrink-0"></i>
                         <div>
                             <span class="block">X (Twitter Oversight)</span>
-                            <span class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Lectura de noticias y flujos reales</span>
+                            <span
+                                class="text-[9px] text-riskiaGray font-bold uppercase tracking-widest group-hover:text-riskiaBlue transition-colors">Lectura
+                                de noticias y flujos reales</span>
                         </div>
                     </a>
                 </div>
             </div>
-            <p class="text-[9px] text-riskiaGray/60 uppercase font-black tracking-widest leading-loose pt-10 border-t border-subtle">
+            <p
+                class="text-[9px] text-riskiaGray/60 uppercase font-black tracking-widest leading-loose pt-10 border-t border-subtle">
                 © 2026 RISKIA FINANCE. TODOS LOS DERECHOS RESERVADOS. <br>
-                RISKIA ES UNA PLATAFORMA EDUCATIVA. LA INFORMACIÓN SUMINISTRADA NO CONSTITUYE ASESORAMIENTO FINANCIERO NI RECOMENDACIÓN DE INVERSIÓN. 
+                RISKIA ES UNA PLATAFORMA EDUCATIVA. LA INFORMACIÓN SUMINISTRADA NO CONSTITUYE ASESORAMIENTO FINANCIERO
+                NI RECOMENDACIÓN DE INVERSIÓN.
             </p>
         </div>
     </footer>
 
     <!-- Mobile Sticky WhatsApp -->
-    <div id="whatsapp-sticky" class="fixed bottom-6 right-6 md:hidden z-[1000] flex items-center bg-[#25D366] text-white p-4 rounded-full shadow-[0_10px_40px_rgba(37,211,102,0.4)] opacity-0">
-        <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank" class="flex items-center gap-3">
+    <div id="whatsapp-sticky"
+        class="fixed bottom-6 right-6 md:hidden z-[1000] flex items-center bg-[#25D366] text-white p-4 rounded-full shadow-[0_10px_40px_rgba(37,211,102,0.4)] opacity-0">
+        <a href="https://wa.me/5491140626605?text=Hola!+Quiero+sumarme+al+canal+de+RISKIA." target="_blank"
+            class="flex items-center gap-3">
             <i data-lucide="message-circle" class="w-6 h-6"></i>
             <span class="font-black uppercase tracking-widest text-[11px] pr-2">Unirme al canal</span>
         </a>
@@ -518,16 +718,75 @@
     </div>
 
     <!-- Scripts -->
+    <script src="live_data.js"></script>
     <script src="live_content.js"></script>
     <script>
         lucide.createIcons();
+
+        // Dashboard Data Bridge (Hydration)
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof RISKIA_DASHBOARD !== 'undefined') {
+                const d = RISKIA_DASHBOARD;
+
+                // Box 1: Pre-market & Status
+                const premarket = document.getElementById('premarket-content');
+                if (premarket) {
+                    premarket.innerHTML = `
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-3">
+                                <div class="w-2.5 h-2.5 rounded-full" style="background-color: ${d.color}"></div>
+                                <span class="text-[10px] font-black uppercase tracking-[0.2em] text-riskiaGray">${d.update}</span>
+                            </div>
+                            <h4 class="text-2xl font-black uppercase tracking-tighter text-riskiaBlue leading-tight">${d.header}</h4>
+                            <p class="text-sm text-riskiaGray font-bold leading-relaxed border-t border-subtle pt-4">${d.ccl}</p>
+                        </div>
+                    `;
+                }
+
+                // Box 2: Radar & Agenda
+                const cierre = document.getElementById('cierre-content');
+                if (cierre) {
+                    cierre.innerHTML = `
+                        <div class="space-y-6">
+                            <div class="p-4 bg-riskiaBlue/5 border-l-4 border-riskiaBlue">
+                                <p class="text-[9px] font-black uppercase tracking-widest text-riskiaBlue mb-2">Radar Técnico (Top RS)</p>
+                                <p class="text-sm font-bold text-riskiaBlue leading-snug">${d.radar_text}</p>
+                            </div>
+                            <div class="p-4 bg-riskiaOrange/5 border-l-4 border-riskiaOrange">
+                                <p class="text-[9px] font-black uppercase tracking-widest text-riskiaOrange mb-2">Agenda de Riesgo / Earnings</p>
+                                <p class="text-sm font-bold text-riskiaOrange leading-snug">${d.agenda_text}</p>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                // Box 3: Insight
+                const informe = document.getElementById('informe-content');
+                if (informe) {
+                    informe.innerHTML = `
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="zap" class="w-4 h-4 text-riskiaOrange"></i>
+                                <p class="text-[10px] font-black uppercase tracking-widest text-riskiaGray">Contexto / Insight Principal</p>
+                            </div>
+                            <p class="text-[15px] font-bold text-riskiaBlue leading-relaxed italic border-b border-subtle pb-6">"${d.insight_text}"</p>
+                            <a href="${d.link_reporte}" target="_blank" class="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-riskiaBlue hover:text-riskiaOrange transition-all group">
+                                Descargar WhitePaper Diario
+                                <i data-lucide="chevron-right" class="w-3 h-3 group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
+                    `;
+                    if (window.lucide) lucide.createIcons();
+                }
+            }
+        });
 
         // FAQ Toggle
         function toggleFaq(item) {
             const answer = item.querySelector('.faq-answer');
             const icon = item.querySelector('.faq-icon');
             const isOpen = !answer.classList.contains('hidden');
-            
+
             if (isOpen) {
                 answer.classList.add('hidden');
                 icon.style.transform = 'rotate(0deg)';
@@ -540,7 +799,7 @@
         // Mobile Sticky Logic with Delay & Persistence
         const sticky = document.getElementById('whatsapp-sticky');
         const closeBtn = document.getElementById('close-sticky');
-        
+
         if (localStorage.getItem('riskia_sticky_hidden') !== 'true') {
             setTimeout(() => {
                 sticky.classList.remove('opacity-0');
@@ -554,10 +813,11 @@
             sticky.classList.add('hidden-sticky');
             localStorage.setItem('riskia_sticky_hidden', 'true');
         });
-        
+
         function trackClick(label) {
             console.log('Tracking Event:', label);
         }
     </script>
 </body>
+
 </html>
