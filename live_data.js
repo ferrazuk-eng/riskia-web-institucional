@@ -1,118 +1,96 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 15/04/2026 18:31
+ * Session: 17/04/2026 10:35
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "15/04/2026 18:31",
+    "update_time": "17/04/2026 10:35",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.79%",
+            "value": "+0.58%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+1.40%",
+            "value": "+0.76%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "18.17",
+            "value": "17.88",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1449.3",
+            "value": "$1451.9",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "528",
+            "value": "527",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "ISRG",
+            "ticker": "TGT",
             "status": "CONFIRMADO",
-            "motive": "`🐂 Cruce Alcista` validado. Reporta el 21/04, hay ventana de trading suficiente. **TAMAÑO: 1.93%.**",
+            "motive": "Cruce alcista de MACD tras formación de suelo redondeado. Momentum positivo con soporte en la media de 200 sesiones.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 468.36,
-            "RSI_Valor": 49.26,
-            "Dist_POC_%": -2.1,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "SPOT",
-            "status": "CONFIRMADO",
-            "motive": "`🐂 Cruce Alcista` con momentum creciente. Sin bloqueos por earnings. **TAMAÑO: 1.21%.**",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 531.17,
-            "RSI_Valor": 62.17,
-            "Dist_POC_%": 11.8,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "SPY",
-            "status": "CONFIRMADO",
-            "motive": "Rebote técnico sobre el **Soporte POC** (-0.2% de distancia). La noticia de Goldman Sachs sobre el \"Regreso de Nvidia/Meta\" (Rule of 10) favorece el sentimiento del índice. **TAMAÑO: 3.60%.**",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 699.94,
-            "RSI_Valor": 69.77,
-            "Dist_POC_%": 3.0,
-            "MACD_Cruce": "Mantener"
+            "Precio": 123.91,
+            "RSI_Valor": 59.9,
+            "Dist_POC_%": 38.2,
+            "MACD_Cruce": "🐂 Cruce Alcista"
         }
     ],
     "ciclo": [
         {
-            "ticker": "ADP",
+            "ticker": "CRM",
             "status": "CONFIRMADO",
-            "motive": "Confluencia técnica perfecta (`RSI Pánico` + `Nivel Suelo`). No hay reportes de ganancias en la ventana de 14 días. Escaneo de noticias limpio de eventos disruptivos. **PROCEDER CON TAMAÑO 1.67%.**",
+            "motive": "Michael Burry comprando el dip tras sobrereacción DeepSeek. Zona de valor técnica y cruce alcista MACD.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 196.92,
-            "RSI_Valor": 40.41,
-            "Dist_POC_%": -23.1,
-            "MACD_Cruce": "Mantener"
+            "Precio": 181.22,
+            "RSI_Valor": 47.62,
+            "Dist_POC_%": -6.4,
+            "MACD_Cruce": "🐂 Cruce Alcista"
         },
         {
-            "ticker": "NKE",
+            "ticker": "ABT",
             "status": "CONFIRMADO",
-            "motive": "Reversión técnica pura. Sin noticias negativas adicionales en las últimas 72hs que justifiquen una mayor caída. **TAMAÑO SUGERIDO: 1.20%.**",
+            "motive": "Sobreventa extrema con RSI en 27. Activo robusto en suelo técnico de largo plazo. Acumulación institucional focalizada.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 45.44,
-            "RSI_Valor": 36.16,
-            "Dist_POC_%": -30.2,
+            "Precio": 95.47,
+            "RSI_Valor": 27.54,
+            "Dist_POC_%": -8.6,
+            "MACD_Cruce": "🐻 Cruce Bajista"
+        },
+        {
+            "ticker": "ADP",
+            "status": "CONFIRMADO",
+            "motive": "Cruce alcista confirmado en zona de POC. Estructura de recuperación sólida con bajo riesgo de caída adicional.",
+            "section_id": 1,
+            "is_trap": false,
+            "Precio": 200.39,
+            "RSI_Valor": 45.29,
+            "Dist_POC_%": -21.8,
             "MACD_Cruce": "🐂 Cruce Alcista"
         }
     ],
     "cautela": [
         {
-            "ticker": "ABT",
+            "ticker": "CAR",
             "status": "VETADO",
-            "motive": "* Reporta balances el **2026-04-16** (dentro de 72hs).",
-            "section_id": 1,
+            "motive": "Lectura extrema de RSI en 91. Liquidez minorista saturando el precio. Alto riesgo de reversión violenta.",
+            "section_id": 3,
             "is_trap": true,
-            "Precio": 101.56,
-            "RSI_Valor": 37.35,
-            "Dist_POC_%": -6.4,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "ASML",
-            "status": "VETADO",
-            "motive": "* Reporta balances **MAÑANA (2026-04-15)** con relevancia MUY ALTA.",
-            "section_id": 2,
-            "is_trap": true,
-            "Precio": 1481.77,
-            "RSI_Valor": 59.61,
-            "Dist_POC_%": 9.0,
+            "Precio": 448.98,
+            "RSI_Valor": 91.32,
+            "Dist_POC_%": 229.4,
             "MACD_Cruce": "Mantener"
         }
     ]

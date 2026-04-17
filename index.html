@@ -393,11 +393,11 @@
             </div>
 
             <!-- Cabecera Macro Hub -->
-            <div id="macro-container" class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
+            <div id="macro-container" class="grid grid-cols-4 gap-6 mb-12">
                 <!-- Hydrated by JS -->
             </div>
 
-            <div id="quant-hub-container" class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+            <div id="quant-hub-container" class="hidden">
                 <!-- Columna 1: Impulso -->
                 <div class="space-y-6">
                     <div class="flex items-center gap-2 mb-6">
@@ -722,10 +722,9 @@
     <script src="live_content.js"></script>
     <script>
         // ====================================================================
-        })();
 
         // Lucide + Quant Hub: cargar cuando el CDN esté listo
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
             if (window.lucide) lucide.createIcons();
             if (typeof updateQuantHub === 'function') updateQuantHub();
         });
