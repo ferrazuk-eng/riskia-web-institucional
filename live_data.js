@@ -1,30 +1,30 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 17/04/2026 10:35
+ * Session: 17/04/2026 18:20
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "17/04/2026 10:35",
+    "update_time": "17/04/2026 18:20",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.58%",
+            "value": "+1.21%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+0.76%",
+            "value": "+1.31%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "17.88",
+            "value": "17.48",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1451.9",
+            "value": "$1459.5",
             "color": "blue"
         },
         {
@@ -40,10 +40,10 @@ const RISKIA_LIVE_DATA = {
             "motive": "Cruce alcista de MACD tras formación de suelo redondeado. Momentum positivo con soporte en la media de 200 sesiones.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 123.91,
-            "RSI_Valor": 59.9,
-            "Dist_POC_%": 38.2,
-            "MACD_Cruce": "🐂 Cruce Alcista"
+            "Precio": 127.84,
+            "RSI_Valor": 65.64,
+            "Dist_POC_%": 6.0,
+            "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
@@ -53,10 +53,10 @@ const RISKIA_LIVE_DATA = {
             "motive": "Michael Burry comprando el dip tras sobrereacción DeepSeek. Zona de valor técnica y cruce alcista MACD.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 181.22,
-            "RSI_Valor": 47.62,
-            "Dist_POC_%": -6.4,
-            "MACD_Cruce": "🐂 Cruce Alcista"
+            "Precio": 182.14,
+            "RSI_Valor": 48.53,
+            "Dist_POC_%": -6.0,
+            "MACD_Cruce": "Mantener"
         },
         {
             "ticker": "ABT",
@@ -64,10 +64,10 @@ const RISKIA_LIVE_DATA = {
             "motive": "Sobreventa extrema con RSI en 27. Activo robusto en suelo técnico de largo plazo. Acumulación institucional focalizada.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 95.47,
-            "RSI_Valor": 27.54,
-            "Dist_POC_%": -8.6,
-            "MACD_Cruce": "🐻 Cruce Bajista"
+            "Precio": 96.81,
+            "RSI_Valor": 32.55,
+            "Dist_POC_%": -7.3,
+            "MACD_Cruce": "Mantener"
         },
         {
             "ticker": "ADP",
@@ -75,10 +75,10 @@ const RISKIA_LIVE_DATA = {
             "motive": "Cruce alcista confirmado en zona de POC. Estructura de recuperación sólida con bajo riesgo de caída adicional.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 200.39,
-            "RSI_Valor": 45.29,
-            "Dist_POC_%": -21.8,
-            "MACD_Cruce": "🐂 Cruce Alcista"
+            "Precio": 200.47,
+            "RSI_Valor": 45.4,
+            "Dist_POC_%": -21.7,
+            "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
@@ -88,9 +88,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Lectura extrema de RSI en 91. Liquidez minorista saturando el precio. Alto riesgo de reversión violenta.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 448.98,
-            "RSI_Valor": 91.32,
-            "Dist_POC_%": 229.4,
+            "Precio": 493.86,
+            "RSI_Valor": 92.58,
+            "Dist_POC_%": 272.1,
             "MACD_Cruce": "Mantener"
         }
     ]
