@@ -1,96 +1,118 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 17/04/2026 18:20
+ * Session: 29/04/2026 15:24
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "17/04/2026 18:20",
+    "update_time": "29/04/2026 15:24",
     "macro": [
         {
             "label": "SPY",
-            "value": "+1.21%",
-            "color": "emerald"
+            "value": "-0.11%",
+            "color": "red"
         },
         {
             "label": "QQQ",
-            "value": "+1.31%",
+            "value": "+0.46%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "17.48",
+            "value": "18.26",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1459.5",
+            "value": "$1495.2",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "527",
+            "value": "582",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "TGT",
+            "ticker": "TXN",
             "status": "CONFIRMADO",
-            "motive": "Cruce alcista de MACD tras formación de suelo redondeado. Momentum positivo con soporte en la media de 200 sesiones.",
+            "motive": "Breakout masivo de +19% tras earnings. Fuerza relativa extrema impulsando al sector analógico.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 127.84,
-            "RSI_Valor": 65.64,
-            "Dist_POC_%": 6.0,
+            "Precio": 270.04,
+            "RSI_Valor": 74.2,
+            "Dist_POC_%": 44.0,
             "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "UNP",
+            "status": "CONFIRMADO",
+            "motive": "Salto de +8.7% superando SMA 200. Reacción positiva a métricas de carga y eficiencia operativa.",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 263.89,
+            "RSI_Valor": 62.95,
+            "Dist_POC_%": 12.8,
+            "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "IREN",
+            "status": "CONFIRMADO",
+            "motive": "Rebotando +7.5% con RSI saludable. Liderando minería de Bitcoin en este ciclo.",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 42.63,
+            "RSI_Valor": 47.48,
+            "Dist_POC_%": 2.2,
+            "MACD_Cruce": "🐻 Cruce Bajista"
         }
     ],
     "ciclo": [
         {
-            "ticker": "CRM",
+            "ticker": "IBIT",
             "status": "CONFIRMADO",
-            "motive": "Michael Burry comprando el dip tras sobrereacción DeepSeek. Zona de valor técnica y cruce alcista MACD.",
+            "motive": "Bitcoin consolidando cerca de $78k. Entrada técnica atractiva por debajo de SMA 200 (-18%).",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 182.14,
-            "RSI_Valor": 48.53,
-            "Dist_POC_%": -6.0,
+            "Precio": 43.21,
+            "RSI_Valor": 56.81,
+            "Dist_POC_%": -15.3,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "ABT",
+            "ticker": "URA",
             "status": "CONFIRMADO",
-            "motive": "Sobreventa extrema con RSI en 27. Activo robusto en suelo técnico de largo plazo. Acumulación institucional focalizada.",
+            "motive": "Momentum sostenido sobre SMA 200 (+21%). Catalizador: Plan \"Nuclear Dominance\" de EE.UU.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 96.81,
-            "RSI_Valor": 32.55,
-            "Dist_POC_%": -7.3,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "ADP",
-            "status": "CONFIRMADO",
-            "motive": "Cruce alcista confirmado en zona de POC. Estructura de recuperación sólida con bajo riesgo de caída adicional.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 200.47,
-            "RSI_Valor": 45.4,
-            "Dist_POC_%": -21.7,
+            "Precio": 53.06,
+            "RSI_Valor": 50.15,
+            "Dist_POC_%": -3.1,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "CAR",
+            "ticker": "NOW",
             "status": "VETADO",
-            "motive": "Lectura extrema de RSI en 91. Liquidez minorista saturando el precio. Alto riesgo de reversión violenta.",
+            "motive": "Crash de -17% tras guidance decepcionante. Evitar hasta estabilización de volumen vendedor.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 493.86,
-            "RSI_Valor": 92.58,
-            "Dist_POC_%": 272.1,
+            "Precio": 87.58,
+            "RSI_Valor": 39.3,
+            "Dist_POC_%": -14.3,
+            "MACD_Cruce": "🐻 Cruce Bajista"
+        },
+        {
+            "ticker": "AI",
+            "status": "VETADO",
+            "motive": "Caída de -9% bajo SMA 200. El modelo de DeepSeek destruye valor percibido en SaaS puro de IA.",
+            "section_id": 3,
+            "is_trap": true,
+            "Precio": 8.81,
+            "RSI_Valor": 48.39,
+            "Dist_POC_%": 5.4,
             "MACD_Cruce": "Mantener"
         }
     ]

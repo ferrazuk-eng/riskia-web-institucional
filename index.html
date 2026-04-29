@@ -866,8 +866,8 @@
                             </div>
                             <div class="flex items-start gap-3"><i data-lucide="check"
                                     class="w-4 h-4 text-riskiaOrange mt-0.5 shrink-0"></i>
-                                <p class="text-sm text-riskiaBlue font-bold">Coordinación con mesa de dinero y productos
-                                    específicos</p>
+                                <p class="text-sm text-riskiaBlue font-bold">Gestión de operaciones directas y acceso a
+                                    productos exclusivos</p>
                             </div>
                         </div>
                         <p class="mt-6 text-xs font-black uppercase tracking-widest text-riskiaGray italic">Te
@@ -895,8 +895,14 @@
 
                 <!-- Left: IOL badge -->
                 <div class="py-16 pr-0 lg:pr-16 lg:border-r border-white/10 flex flex-col justify-center">
-                    <p class="text-[10px] font-black uppercase tracking-[0.5em] text-riskiaOrange mb-5">Infraestructura
-                        de inversión</p>
+                    <!-- RISKIA brand mark — visible in screenshots -->
+                    <div class="mb-8 flex items-center gap-4">
+                        <img id="logo-iol" src="riskia_logo_negativo.png" alt="RISKIA" class="h-8 w-auto object-contain">
+                        <div class="flex items-center gap-2">
+                            <div class="w-px h-6 bg-white/20"></div>
+                            <span class="text-[9px] font-black uppercase tracking-[0.3em] text-white/30">Infraestructura de inversión</span>
+                        </div>
+                    </div>
                     <h3 class="text-3xl md:text-5xl font-black uppercase tracking-tighter text-white leading-none mb-6">
                         Operamos con<br>
                         <span class="text-riskiaOrange">IOL Invertir Online</span><span class="text-white">.</span>
@@ -958,8 +964,7 @@
                                 <i data-lucide="link-2" class="w-4 h-4 text-riskiaOrange"></i>
                             </div>
                             <div>
-                                <p class="font-black uppercase tracking-wide text-white text-sm">Coordinación con mesa
-                                    de dinero</p>
+                                <p class="font-black uppercase tracking-wide text-white text-sm">Gestión de operaciones directas y acceso a productos exclusivos</p>
                                 <p class="text-white/45 text-xs font-bold mt-1 leading-relaxed">Acceso a productos
                                     específicos y seguimiento real de tu cartera con criterio profesional.</p>
                             </div>
@@ -1436,8 +1441,20 @@
                 }
             })();
     </script>
-    <script src="live_data.js"></script>
-    <script src="live_content.js"></script>
+    <script>
+        // Inyector normalizado para GitHub Pages (Carga Local)
+        const timestamp = new Date().getTime();
+
+        const scriptData = document.createElement('script');
+        scriptData.src = `./live_data.js?v=${timestamp}`;
+        document.head.appendChild(scriptData);
+
+        const scriptContent = document.createElement('script');
+        scriptContent.src = `./live_content.js?v=${timestamp}`;
+        document.head.appendChild(scriptContent);
+
+        console.log("Radar: Cargando datos locales con cache-buster v=" + timestamp);
+    </script>
     <script>
         // Lucide + live_data: inicializar cuando el CDN esté listo
         window.addEventListener('load', function () {
@@ -1449,6 +1466,7 @@
         function setLogos(isDark) {
             const src = isDark ? 'riskia_logo_negativo.png' : 'riskia_logo_principal.png';
             document.querySelectorAll('#logo-header, #logo-footer').forEach(el => el.src = src);
+            // logo-iol is always negativo (dark section) — never swapped
         }
         function toggleTheme() {
             const isDark = document.documentElement.classList.toggle('dark');
