@@ -37,11 +37,11 @@ function renderMacroHeader(macros) {
     const filteredMacros = macros.filter(m => m.label !== "Riesgo Pais");
 
     container.innerHTML = filteredMacros.map(m => `
-        <div class="bg-white p-4 border border-subtle shadow-sm flex flex-col group hover:border-riskiaBlue transition-all">
-            <span class="text-[9px] font-black tracking-widest text-riskiaGray uppercase mb-1">${m.label}</span>
-            <div class="flex items-center gap-2">
-                <div class="w-2 h-2 rounded-full bg-${m.color}-500 animate-pulse"></div>
-                <span class="text-lg font-black text-riskiaBlue tracking-tighter">${m.value}</span>
+        <div class="bg-white p-3 sm:p-4 border border-subtle shadow-sm flex flex-col group hover:border-riskiaBlue transition-all overflow-hidden">
+            <span class="text-[8px] sm:text-[9px] font-black tracking-widest text-riskiaGray uppercase mb-1 truncate">${m.label}</span>
+            <div class="flex items-center gap-1.5 sm:gap-2">
+                <div class="w-2 h-2 rounded-full bg-${m.color}-500 animate-pulse shrink-0"></div>
+                <span class="text-sm sm:text-base md:text-lg font-black text-riskiaBlue tracking-tighter truncate">${m.value}</span>
             </div>
         </div>
     `).join('');
