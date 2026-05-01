@@ -1,25 +1,25 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 01/05/2026 16:35
+ * Session: 01/05/2026 20:21
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "01/05/2026 16:35",
+    "update_time": "01/05/2026 20:21",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.54%",
+            "value": "+0.28%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+1.16%",
+            "value": "+0.96%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "16.8",
+            "value": "16.99",
             "color": "emerald"
         },
         {
@@ -29,7 +29,7 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "Riesgo Pais",
-            "value": "573",
+            "value": "567",
             "color": "riskiaGray"
         }
     ],
@@ -40,9 +40,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Breakout masivo de +19% tras earnings. Fuerza relativa extrema impulsando al sector analógico.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 281.46,
-            "RSI_Valor": 77.41,
-            "Dist_POC_%": 50.1,
+            "Precio": 281.02,
+            "RSI_Valor": 77.26,
+            "Dist_POC_%": 49.9,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -51,9 +51,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Salto de +8.7% superando SMA 200. Reacción positiva a métricas de carga y eficiencia operativa.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 267.11,
-            "RSI_Valor": 64.46,
-            "Dist_POC_%": 14.1,
+            "Precio": 266.32,
+            "RSI_Valor": 63.22,
+            "Dist_POC_%": 13.8,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -62,9 +62,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Rebotando +7.5% con RSI saludable. Liderando minería de Bitcoin en este ciclo.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 45.75,
-            "RSI_Valor": 52.89,
-            "Dist_POC_%": 9.7,
+            "Precio": 45.66,
+            "RSI_Valor": 52.74,
+            "Dist_POC_%": 9.5,
             "MACD_Cruce": "Mantener"
         }
     ],
@@ -76,7 +76,7 @@ const RISKIA_LIVE_DATA = {
             "section_id": 1,
             "is_trap": false,
             "Precio": 44.47,
-            "RSI_Valor": 61.69,
+            "RSI_Valor": 61.67,
             "Dist_POC_%": -12.6,
             "MACD_Cruce": "Mantener"
         },
@@ -86,8 +86,8 @@ const RISKIA_LIVE_DATA = {
             "motive": "Momentum sostenido sobre SMA 200 (+21%). Catalizador: Plan \"Nuclear Dominance\" de EE.UU.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 55.81,
-            "RSI_Valor": 56.17,
+            "Precio": 55.84,
+            "RSI_Valor": 56.26,
             "Dist_POC_%": 2.0,
             "MACD_Cruce": "Mantener"
         }
@@ -99,8 +99,8 @@ const RISKIA_LIVE_DATA = {
             "motive": "Crash de -17% tras guidance decepcionante. Evitar hasta estabilización de volumen vendedor.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 91.11,
-            "RSI_Valor": 43.67,
+            "Precio": 91.16,
+            "RSI_Valor": 43.74,
             "Dist_POC_%": -10.8,
             "MACD_Cruce": "🐂 Cruce Alcista"
         },
@@ -110,9 +110,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Caída de -9% bajo SMA 200. El modelo de DeepSeek destruye valor percibido en SaaS puro de IA.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 9.2,
-            "RSI_Valor": 54.31,
-            "Dist_POC_%": 7.8,
+            "Precio": 9.16,
+            "RSI_Valor": 53.69,
+            "Dist_POC_%": 7.2,
             "MACD_Cruce": "Mantener"
         }
     ]
