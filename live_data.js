@@ -1,25 +1,25 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 01/05/2026 20:21
+ * Session: 05/05/2026 18:12
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "01/05/2026 20:21",
+    "update_time": "05/05/2026 18:12",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.28%",
+            "value": "+0.80%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+0.96%",
+            "value": "+1.30%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "16.99",
+            "value": "17.38",
             "color": "emerald"
         },
         {
@@ -29,90 +29,101 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "Riesgo Pais",
-            "value": "567",
+            "value": "539",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "TXN",
+            "ticker": "COIN",
             "status": "CONFIRMADO",
-            "motive": "Breakout masivo de +19% tras earnings. Fuerza relativa extrema impulsando al sector analógico.",
+            "motive": "Cruce alcista de MACD coincidiendo con Bitcoin superando los 80k. Momentum fuerte en premarket (+6.1%).",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 281.02,
-            "RSI_Valor": 77.26,
-            "Dist_POC_%": 49.9,
+            "Precio": 197.75,
+            "RSI_Valor": 53.74,
+            "Dist_POC_%": -0.1,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "UNP",
+            "ticker": "EBAY",
             "status": "CONFIRMADO",
-            "motive": "Salto de +8.7% superando SMA 200. Reacción positiva a métricas de carga y eficiencia operativa.",
+            "motive": "Cruce alcista de MACD y fortaleza relativa positiva (+5.0% premarket). Continuación de tendencia.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 266.32,
-            "RSI_Valor": 63.22,
-            "Dist_POC_%": 13.8,
+            "Precio": 105.26,
+            "RSI_Valor": 59.22,
+            "Dist_POC_%": 27.8,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "IREN",
+            "ticker": "PYPL",
             "status": "CONFIRMADO",
-            "motive": "Rebotando +7.5% con RSI saludable. Liderando minería de Bitcoin en este ciclo.",
+            "motive": "Reacción positiva post-earnings. RSI recuperando niveles medios con entrada de capital institucional.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 45.66,
-            "RSI_Valor": 52.74,
-            "Dist_POC_%": 9.5,
+            "Precio": 46.49,
+            "RSI_Valor": 41.67,
+            "Dist_POC_%": 5.0,
             "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
         {
-            "ticker": "IBIT",
+            "ticker": "ABT",
             "status": "CONFIRMADO",
-            "motive": "Bitcoin consolidando cerca de $78k. Entrada técnica atractiva por debajo de SMA 200 (-18%).",
+            "motive": "RSI en 25.8 (Pánico) con acumulación de manos fuertes y distancia al POC de -19.2%. Oportunidad de valor.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 44.47,
-            "RSI_Valor": 61.67,
-            "Dist_POC_%": -12.6,
+            "Precio": 87.17,
+            "RSI_Valor": 25.32,
+            "Dist_POC_%": -19.1,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "URA",
+            "ticker": "NKE",
             "status": "CONFIRMADO",
-            "motive": "Momentum sostenido sobre SMA 200 (+21%). Catalizador: Plan \"Nuclear Dominance\" de EE.UU.",
+            "motive": "Sobrevendido con RSI de 30.5 e instituciones comprando. Distancia al POC de -33.7% sugiere suelo técnico.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 55.84,
-            "RSI_Valor": 56.26,
-            "Dist_POC_%": 2.0,
+            "Precio": 43.06,
+            "RSI_Valor": 30.39,
+            "Dist_POC_%": -33.8,
+            "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "MCD",
+            "status": "CONFIRMADO",
+            "motive": "RSI Panico (30.0) cerca de soporte histórico. Manos fuertes buscando piso en niveles de valor.",
+            "section_id": 1,
+            "is_trap": false,
+            "Precio": 285.17,
+            "RSI_Valor": 31.72,
+            "Dist_POC_%": -6.9,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "NOW",
+            "ticker": "AMD",
             "status": "VETADO",
-            "motive": "Crash de -17% tras guidance decepcionante. Evitar hasta estabilización de volumen vendedor.",
+            "motive": "Caída del -5.3% premarket previo a earnings. Volatilidad extrema, evitar entrada agresiva hasta confirmar cierre.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 91.16,
-            "RSI_Valor": 43.74,
-            "Dist_POC_%": -10.8,
-            "MACD_Cruce": "🐂 Cruce Alcista"
+            "Precio": 355.26,
+            "RSI_Valor": 72.54,
+            "Dist_POC_%": 74.6,
+            "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "AI",
+            "ticker": "ARM",
             "status": "VETADO",
-            "motive": "Caída de -9% bajo SMA 200. El modelo de DeepSeek destruye valor percibido en SaaS puro de IA.",
+            "motive": "RSI elevado (62) y gap alcista previo a reporte mañana. Riesgo de toma de ganancias excesiva.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 9.16,
-            "RSI_Valor": 53.69,
-            "Dist_POC_%": 7.2,
+            "Precio": 208.84,
+            "RSI_Valor": 63.94,
+            "Dist_POC_%": 80.8,
             "MACD_Cruce": "Mantener"
         }
     ]
