@@ -1,25 +1,25 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 05/05/2026 18:12
+ * Session: 06/05/2026 18:33
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "05/05/2026 18:12",
+    "update_time": "06/05/2026 18:33",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.80%",
+            "value": "+1.39%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+1.30%",
+            "value": "+2.09%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "17.38",
+            "value": "17.39",
             "color": "emerald"
         },
         {
@@ -29,42 +29,42 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "Riesgo Pais",
-            "value": "539",
+            "value": "558",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "COIN",
+            "ticker": "AMD",
             "status": "CONFIRMADO",
-            "motive": "Cruce alcista de MACD coincidiendo con Bitcoin superando los 80k. Momentum fuerte en premarket (+6.1%).",
+            "motive": "Reacción explosiva post-earnings (+4.0% premarket). RSI en Euforia (72) validando la rotación hacia infraestructura de IA.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 197.75,
-            "RSI_Valor": 53.74,
-            "Dist_POC_%": -0.1,
+            "Precio": 421.39,
+            "RSI_Valor": 81.18,
+            "Dist_POC_%": 107.2,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "EBAY",
+            "ticker": "ABEV",
             "status": "CONFIRMADO",
-            "motive": "Cruce alcista de MACD y fortaleza relativa positiva (+5.0% premarket). Continuación de tendencia.",
+            "motive": "Momentum vertical (+16.2% premarket). Cruce alcista de MACD y RSI en Euforia. Entrada agresiva de capital.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 105.26,
-            "RSI_Valor": 59.22,
-            "Dist_POC_%": 27.8,
+            "Precio": 3.43,
+            "RSI_Valor": 72.86,
+            "Dist_POC_%": 38.9,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "PYPL",
+            "ticker": "IREN",
             "status": "CONFIRMADO",
-            "motive": "Reacción positiva post-earnings. RSI recuperando niveles medios con entrada de capital institucional.",
+            "motive": "Fortaleza relativa extrema (+10.6% premarket). Se beneficia del rally de Bitcoin por encima de los $82,000.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 46.49,
-            "RSI_Valor": 41.67,
-            "Dist_POC_%": 5.0,
+            "Precio": 60.98,
+            "RSI_Valor": 71.3,
+            "Dist_POC_%": 46.2,
             "MACD_Cruce": "Mantener"
         }
     ],
@@ -72,58 +72,58 @@ const RISKIA_LIVE_DATA = {
         {
             "ticker": "ABT",
             "status": "CONFIRMADO",
-            "motive": "RSI en 25.8 (Pánico) con acumulación de manos fuertes y distancia al POC de -19.2%. Oportunidad de valor.",
+            "motive": "RSI en 25.3 (Pánico extremo) con distancia al POC de -19.1%. El mercado castiga en exceso; oportunidad institucional de valor.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 87.17,
-            "RSI_Valor": 25.32,
-            "Dist_POC_%": -19.1,
+            "Precio": 86.3,
+            "RSI_Valor": 24.13,
+            "Dist_POC_%": -19.9,
             "MACD_Cruce": "Mantener"
         },
         {
             "ticker": "NKE",
             "status": "CONFIRMADO",
-            "motive": "Sobrevendido con RSI de 30.5 e instituciones comprando. Distancia al POC de -33.7% sugiere suelo técnico.",
+            "motive": "Mantiene niveles de sobreventa (RSI 30.3). Distancia al POC de -33.8%. Piso técnico en formación con soporte institucional.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 43.06,
-            "RSI_Valor": 30.39,
-            "Dist_POC_%": -33.8,
+            "Precio": 43.88,
+            "RSI_Valor": 36.58,
+            "Dist_POC_%": -32.5,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "MCD",
+            "ticker": "RTX",
             "status": "CONFIRMADO",
-            "motive": "RSI Panico (30.0) cerca de soporte histórico. Manos fuertes buscando piso en niveles de valor.",
+            "motive": "RSI Panico (29.6). Sector defensa en niveles de descuento tras la distensión diplomática temporal.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 285.17,
-            "RSI_Valor": 31.72,
-            "Dist_POC_%": -6.9,
+            "Precio": 176.74,
+            "RSI_Valor": 37.31,
+            "Dist_POC_%": -9.7,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "AMD",
+            "ticker": "SHOP",
             "status": "VETADO",
-            "motive": "Caída del -5.3% premarket previo a earnings. Volatilidad extrema, evitar entrada agresiva hasta confirmar cierre.",
+            "motive": "Colapso premarket del -15.6%. Cruce bajista de MACD. Evitar atrapar el \"cuchillo cayendo\" hasta estabilización de volumen.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 355.26,
-            "RSI_Valor": 72.54,
-            "Dist_POC_%": 74.6,
+            "Precio": 105.44,
+            "RSI_Valor": 34.69,
+            "Dist_POC_%": -11.5,
             "MACD_Cruce": "Mantener"
         },
         {
             "ticker": "ARM",
             "status": "VETADO",
-            "motive": "RSI elevado (62) y gap alcista previo a reporte mañana. Riesgo de toma de ganancias excesiva.",
+            "motive": "Reporta hoy al cierre. RSI elevado (63). El mercado ya descontó el éxito de AMD; riesgo de \"sell the news\" si no hay sorpresas masivas.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 208.84,
-            "RSI_Valor": 63.94,
-            "Dist_POC_%": 80.8,
+            "Precio": 237.3,
+            "RSI_Valor": 71.85,
+            "Dist_POC_%": 111.5,
             "MACD_Cruce": "Mantener"
         }
     ]
