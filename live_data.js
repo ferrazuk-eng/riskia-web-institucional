@@ -1,129 +1,96 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 06/05/2026 18:33
+ * Session: 08/05/2026 08:31
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "06/05/2026 18:33",
+    "update_time": "08/05/2026 08:31",
     "macro": [
         {
             "label": "SPY",
-            "value": "+1.39%",
+            "value": "+0.18%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+2.09%",
+            "value": "+0.59%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "17.39",
+            "value": "17.1",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1494.1",
+            "value": "$1484.4",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "558",
+            "value": "514",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "AMD",
-            "status": "CONFIRMADO",
-            "motive": "Reacción explosiva post-earnings (+4.0% premarket). RSI en Euforia (72) validando la rotación hacia infraestructura de IA.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 421.39,
-            "RSI_Valor": 81.18,
-            "Dist_POC_%": 107.2,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "ABEV",
-            "status": "CONFIRMADO",
-            "motive": "Momentum vertical (+16.2% premarket). Cruce alcista de MACD y RSI en Euforia. Entrada agresiva de capital.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 3.43,
-            "RSI_Valor": 72.86,
-            "Dist_POC_%": 38.9,
-            "MACD_Cruce": "Mantener"
-        },
-        {
             "ticker": "IREN",
             "status": "CONFIRMADO",
-            "motive": "Fortaleza relativa extrema (+10.6% premarket). Se beneficia del rally de Bitcoin por encima de los $82,000.",
+            "motive": "Explosión de volumen y precio (+26% After-hours). Validación de tesis de infraestructura IA.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 60.98,
-            "RSI_Valor": 71.3,
-            "Dist_POC_%": 46.2,
+            "Precio": 61.78,
+            "RSI_Valor": 63.59,
+            "Dist_POC_%": 36.3,
+            "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "XYZ",
+            "status": "CONFIRMADO",
+            "motive": "Gap alcista con soporte institucional tras actualización de guía de resultados.",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 75.21,
+            "RSI_Valor": 56.9,
+            "Dist_POC_%": 13.0,
             "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
         {
-            "ticker": "ABT",
+            "ticker": "TEAM",
             "status": "CONFIRMADO",
-            "motive": "RSI en 25.3 (Pánico extremo) con distancia al POC de -19.1%. El mercado castiga en exceso; oportunidad institucional de valor.",
+            "motive": "Fortaleza relativa sectorial con acumulación institucional constante. Sobre soporte clave.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 86.3,
-            "RSI_Valor": 24.13,
-            "Dist_POC_%": -19.9,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "NKE",
-            "status": "CONFIRMADO",
-            "motive": "Mantiene niveles de sobreventa (RSI 30.3). Distancia al POC de -33.8%. Piso técnico en formación con soporte institucional.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 43.88,
-            "RSI_Valor": 36.58,
-            "Dist_POC_%": -32.5,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "RTX",
-            "status": "CONFIRMADO",
-            "motive": "RSI Panico (29.6). Sector defensa en niveles de descuento tras la distensión diplomática temporal.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 176.74,
-            "RSI_Valor": 37.31,
-            "Dist_POC_%": -9.7,
+            "Precio": 90.55,
+            "RSI_Valor": 67.02,
+            "Dist_POC_%": 34.4,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "SHOP",
+            "ticker": "AAPL",
             "status": "VETADO",
-            "motive": "Colapso premarket del -15.6%. Cruce bajista de MACD. Evitar atrapar el \"cuchillo cayendo\" hasta estabilización de volumen.",
-            "section_id": 3,
+            "motive": "Cerca de niveles de euforia técnica. Mantener posiciones existentes, evitar compras nuevas aquí.",
+            "section_id": 1,
             "is_trap": true,
-            "Precio": 105.44,
-            "RSI_Valor": 34.69,
-            "Dist_POC_%": -11.5,
+            "Precio": 289.4,
+            "RSI_Valor": 69.31,
+            "Dist_POC_%": 5.2,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "ARM",
+            "ticker": "HOOD",
             "status": "VETADO",
-            "motive": "Reporta hoy al cierre. RSI elevado (63). El mercado ya descontó el éxito de AMD; riesgo de \"sell the news\" si no hay sorpresas masivas.",
+            "motive": "Debilidad técnica persistente y rebaja de precio objetivo por bancos de inversión (DBS).",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 237.3,
-            "RSI_Valor": 71.85,
-            "Dist_POC_%": 111.5,
+            "Precio": 76.29,
+            "RSI_Valor": 47.22,
+            "Dist_POC_%": 5.0,
             "MACD_Cruce": "Mantener"
         }
     ]
