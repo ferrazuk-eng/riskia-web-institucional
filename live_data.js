@@ -1,97 +1,97 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 08/05/2026 08:31
+ * Session: 11/05/2026 17:42
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "08/05/2026 08:31",
+    "update_time": "11/05/2026 17:42",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.18%",
+            "value": "+0.23%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+0.59%",
+            "value": "+0.31%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "17.1",
+            "value": "18.38",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1484.4",
+            "value": "$1479.8",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "514",
+            "value": "510",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "IREN",
+            "ticker": "ARM",
             "status": "CONFIRMADO",
-            "motive": "Explosión de volumen y precio (+26% After-hours). Validación de tesis de infraestructura IA.",
+            "motive": "Rebote técnico tras caída del 10%. Se mantiene sobre SMA 200 y el interés institucional sugiere capitulación.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 61.78,
-            "RSI_Valor": 63.59,
-            "Dist_POC_%": 36.3,
+            "Precio": 212.23,
+            "RSI_Valor": 59.61,
+            "Dist_POC_%": 89.5,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "XYZ",
+            "ticker": "JMIA",
             "status": "CONFIRMADO",
-            "motive": "Gap alcista con soporte institucional tras actualización de guía de resultados.",
+            "motive": "Momentum explosivo (+16%). Entrada táctica con stop ajustado buscando extensión de la verticalidad actual.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 75.21,
-            "RSI_Valor": 56.9,
-            "Dist_POC_%": 13.0,
+            "Precio": 7.5,
+            "RSI_Valor": 51.52,
+            "Dist_POC_%": -41.9,
             "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
         {
-            "ticker": "TEAM",
+            "ticker": "AAPL",
             "status": "CONFIRMADO",
-            "motive": "Fortaleza relativa sectorial con acumulación institucional constante. Sobre soporte clave.",
+            "motive": "Consolidación constructiva sobre SMA 200 con RSI en niveles de salud. Refugio premium ante volatilidad macro.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 90.55,
-            "RSI_Valor": 67.02,
-            "Dist_POC_%": 34.4,
+            "Precio": 292.54,
+            "RSI_Valor": 71.94,
+            "Dist_POC_%": 7.0,
+            "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "IREN",
+            "status": "CONFIRMADO",
+            "motive": "BTC > 80k valida el modelo de negocio. Mantener exposición core al sector minero con institucionales comprando.",
+            "section_id": 1,
+            "is_trap": false,
+            "Precio": 55.96,
+            "RSI_Valor": 58.07,
+            "Dist_POC_%": 29.8,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "AAPL",
+            "ticker": "SONY",
             "status": "VETADO",
-            "motive": "Cerca de niveles de euforia técnica. Mantener posiciones existentes, evitar compras nuevas aquí.",
-            "section_id": 1,
-            "is_trap": true,
-            "Precio": 289.4,
-            "RSI_Valor": 69.31,
-            "Dist_POC_%": 5.2,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "HOOD",
-            "status": "VETADO",
-            "motive": "Debilidad técnica persistente y rebaja de precio objetivo por bancos de inversión (DBS).",
+            "motive": "Pésimos datos de ventas de PS5 y aumento de costos de memoria. El mercado castigará la falta de guidance claro.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 76.29,
-            "RSI_Valor": 47.22,
-            "Dist_POC_%": 5.0,
-            "MACD_Cruce": "Mantener"
+            "Precio": 21.4,
+            "RSI_Valor": 57.13,
+            "Dist_POC_%": -0.4,
+            "MACD_Cruce": "🐂 Cruce Alcista"
         }
     ]
 };
