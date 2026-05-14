@@ -1,11 +1,11 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 14/05/2026 19:06
+ * Session: 14/05/2026 20:05
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "14/05/2026 19:06",
+    "update_time": "14/05/2026 20:05",
     "macro": [
         {
             "label": "SPY",
@@ -40,7 +40,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "Rebote técnico tras caída del 10%. Se mantiene sobre SMA 200 y el interés institucional sugiere capitulación.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 227.44,
+            "Precio": 227.15,
             "RSI_Valor": 64.04,
             "Dist_POC_%": 103.6,
             "MACD_Cruce": "Mantener"
@@ -51,7 +51,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "Momentum explosivo (+16%). Entrada táctica con stop ajustado buscando extensión de la verticalidad actual.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 7.3,
+            "Precio": 7.45,
             "RSI_Valor": 48.85,
             "Dist_POC_%": -43.3,
             "MACD_Cruce": "Mantener"
@@ -64,7 +64,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "Consolidación constructiva sobre SMA 200 con RSI en niveles de salud. Refugio premium ante volatilidad macro.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 298.25,
+            "Precio": 298.42,
             "RSI_Valor": 74.83,
             "Dist_POC_%": 10.0,
             "MACD_Cruce": "Mantener"
@@ -75,7 +75,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "BTC > 80k valida el modelo de negocio. Mantener exposición core al sector minero con institucionales comprando.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 58.58,
+            "Precio": 59.27,
             "RSI_Valor": 60.84,
             "Dist_POC_%": 40.2,
             "MACD_Cruce": "Mantener"
@@ -88,7 +88,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "Pésimos datos de ventas de PS5 y aumento de costos de memoria. El mercado castigará la falta de guidance claro.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 22.15,
+            "Precio": 22.3,
             "RSI_Valor": 60.13,
             "Dist_POC_%": 3.5,
             "MACD_Cruce": "Mantener"
