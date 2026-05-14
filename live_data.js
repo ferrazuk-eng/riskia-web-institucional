@@ -1,96 +1,97 @@
-/** 
+﻿/** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 12/05/2026 18:53
- * Motor: web_sync_v4.6
+ * Session: 13/05/2026 20:01
  */
 
+const RISKIA_DASHBOARD = {
+    "update": "13/05/2026 20:01",
+    "header": "PULSO RISKIA: ESTABLE (VIX: 17.87)",
+    "status": "ESTABLE",
+    "color": "#2a9d8f",
+    "ccl": "$1480.0",
+    "radar_text": "Carga Automática v4.2",
+    "agenda_text": "Kevin Warsh Fed Chair | Nasdaq +1.20% | BABA Loss",
+    "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
+    "insight_text": "Cierre con fuerte rebote tecnológico. Kevin Warsh asume la Fed. Optimismo por cumbre en China."
+};
+
 const RISKIA_LIVE_DATA = {
-    "update_time": "12/05/2026 18:53",
+    "update_time": "13/05/2026 20:01",
     "macro": [
         {
             "label": "SPY",
-            "value": "-0.15%",
-            "color": "red"
+            "value": "+0.56%",
+            "color": "blue"
         },
         {
             "label": "QQQ",
-            "value": "-0.85%",
-            "color": "red"
+            "value": "+1.06%",
+            "color": "blue"
         },
         {
             "label": "VIX",
-            "value": "17.99",
+            "value": "17.87",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1475.2",
+            "value": "$1480.0",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "510",
+            "value": "511",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "ARM",
+            "ticker": "NVDA",
             "status": "CONFIRMADO",
-            "motive": "Rebote técnico tras caída del 10%. Se mantiene sobre SMA 200 y el interés institucional sugiere capitulación.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 207.01,
-            "RSI_Valor": 57.28,
-            "Dist_POC_%": 85.3,
+            "motive": "Liderazgo absoluto en infraestructura IA. Huang en China es clave.",
+            "Precio": 224.56,
+            "RSI_Valor": 70.45,
+            "Dist_POC_%": 21.2,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "JMIA",
+            "ticker": "BA",
             "status": "CONFIRMADO",
-            "motive": "Momentum explosivo (+16%). Entrada táctica con stop ajustado buscando extensión de la verticalidad actual.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 8.0,
-            "RSI_Valor": 56.24,
-            "Dist_POC_%": -38.3,
+            "motive": "Optimismo por pedidos chinos ante cumbre Trump-Xi.",
+            "Precio": 182.34,
+            "RSI_Valor": 58.12,
+            "Dist_POC_%": -2.4,
             "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
         {
-            "ticker": "AAPL",
+            "ticker": "GS",
             "status": "CONFIRMADO",
-            "motive": "Consolidación constructiva sobre SMA 200 con RSI en niveles de salud. Refugio premium ante volatilidad macro.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 294.48,
-            "RSI_Valor": 73.65,
-            "Dist_POC_%": 8.7,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "IREN",
-            "status": "CONFIRMADO",
-            "motive": "BTC > 80k valida el modelo de negocio. Mantener exposición core al sector minero con institucionales comprando.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 56.38,
-            "RSI_Valor": 59.5,
-            "Dist_POC_%": 33.1,
+            "motive": "Beneficiario directo de la era Warsh y desregulación.",
+            "Precio": 482.12,
+            "RSI_Valor": 62.15,
+            "Dist_POC_%": 8.5,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "SONY",
+            "ticker": "BABA",
             "status": "VETADO",
-            "motive": "Pésimos datos de ventas de PS5 y aumento de costos de memoria. El mercado castigará la falta de guidance claro.",
-            "section_id": 3,
-            "is_trap": true,
-            "Precio": 22.3,
-            "RSI_Valor": 63.49,
-            "Dist_POC_%": 3.7,
+            "motive": "Crisis de eficiencia en IA. Pérdida operativa histórica.",
+            "Precio": 128.45,
+            "RSI_Valor": 38.12,
+            "Dist_POC_%": -18.2,
+            "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "EWW",
+            "status": "TRAMPA",
+            "motive": "Perspectiva negativa de S&P para México. Riesgo país al alza.",
+            "Precio": 54.12,
+            "RSI_Valor": 41.25,
+            "Dist_POC_%": -8.4,
             "MACD_Cruce": "Mantener"
         }
     ]
