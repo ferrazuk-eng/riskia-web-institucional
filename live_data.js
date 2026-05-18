@@ -1,26 +1,37 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 16/05/2026 13:33
- * Motor: web_sync_v4.6
+ * Session: 18/05/2026 09:06
  */
 
+const RISKIA_DASHBOARD = {
+    "update": "18/05/2026 09:06",
+    "header": "PULSO RISKIA: ALERTA (VIX: 19.23)",
+    "status": "ALERTA",
+    "color": "#f4a261",
+    "ccl": "$1485.1",
+    "radar_text": "Carga Automática v4.2",
+    "agenda_text": "BIDU (Hoy) | Tasa 10Y 4.60% | Buffett compra $DAL",
+    "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
+    "insight_text": "Apertura semanal bajista por salto en tasas. Foco en activos irremplazables y rebalanceo de Buffett."
+};
+
 const RISKIA_LIVE_DATA = {
-    "update_time": "16/05/2026 13:33",
+    "update_time": "18/05/2026 09:06",
     "macro": [
         {
-            "label": "SPY",
-            "value": "-1.20%",
+            "label": "SPY (PM)",
+            "value": "-1.21%",
             "color": "red"
         },
         {
-            "label": "QQQ",
-            "value": "-1.51%",
+            "label": "QQQ (PM)",
+            "value": "-1.38%",
             "color": "red"
         },
         {
             "label": "VIX",
-            "value": "18.43",
-            "color": "emerald"
+            "value": "19.23",
+            "color": "amber"
         },
         {
             "label": "Dolar CCL",
@@ -29,53 +40,36 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "Riesgo Pais",
-            "value": "525",
+            "value": "538",
             "color": "riskiaGray"
         }
     ],
     "impulso": [
         {
-            "ticker": "ARM",
-            "status": "CONFIRMADO",
-            "motive": "Rebote técnico tras caída del 10%. Se mantiene sobre SMA 200 y el interés institucional sugiere capitulación.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 206.88,
-            "RSI_Valor": 54.83,
-            "Dist_POC_%": 86.4,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "JMIA",
-            "status": "CONFIRMADO",
-            "motive": "Momentum explosivo (+16%). Entrada táctica con stop ajustado buscando extensión de la verticalidad actual.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 7.0,
-            "RSI_Valor": 45.48,
-            "Dist_POC_%": -0.4,
-            "MACD_Cruce": "Mantener"
-        }
-    ],
-    "ciclo": [
-        {
             "ticker": "AAPL",
             "status": "CONFIRMADO",
-            "motive": "Consolidación constructiva sobre SMA 200 con RSI en niveles de salud. Refugio premium ante volatilidad macro.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 299.85,
+            "motive": "Bastión de calidad y caja premium sobre SMA 200 ante corrección tech.",
+            "Precio": 299.2,
             "RSI_Valor": 76.02,
             "Dist_POC_%": 9.6,
             "MACD_Cruce": "Mantener"
         },
         {
+            "ticker": "DAL",
+            "status": "CONFIRMADO",
+            "motive": "Berkshire inyecta $2.6B validando la rotación institucional a transporte.",
+            "Precio": 52.34,
+            "RSI_Valor": 58.12,
+            "Dist_POC_%": 4.1,
+            "MACD_Cruce": "Mantener"
+        }
+    ],
+    "ciclo": [
+        {
             "ticker": "IREN",
             "status": "CONFIRMADO",
-            "motive": "BTC > 80k valida el modelo de negocio. Mantener exposición core al sector minero con institucionales comprando.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 52.63,
+            "motive": "Sostén de BTC en $77k y compra de institucionales en infraestructura IA.",
+            "Precio": 53.6,
             "RSI_Valor": 53.08,
             "Dist_POC_%": 27.1,
             "MACD_Cruce": "Mantener"
@@ -84,13 +78,20 @@ const RISKIA_LIVE_DATA = {
     "cautela": [
         {
             "ticker": "SONY",
-            "status": "VETADO",
-            "motive": "Pésimos datos de ventas de PS5 y aumento de costos de memoria. El mercado castigará la falta de guidance claro.",
-            "section_id": 3,
-            "is_trap": true,
-            "Precio": 22.44,
-            "RSI_Valor": 61.38,
-            "Dist_POC_%": 4.4,
+            "status": "TRAMPA",
+            "motive": "Caída de ventas en PS5 y sobrecosto de memorias. Sin guidance claro.",
+            "Precio": 20.15,
+            "RSI_Valor": 39.12,
+            "Dist_POC_%": -14.2,
+            "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "EDN",
+            "status": "EVITAR",
+            "motive": "Riesgo binario extremo por presentación de balance hoy en Argentina.",
+            "Precio": 22.15,
+            "RSI_Valor": 41.25,
+            "Dist_POC_%": -11.4,
             "MACD_Cruce": "Mantener"
         }
     ]
