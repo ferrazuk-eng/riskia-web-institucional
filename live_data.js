@@ -1,35 +1,35 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 19/05/2026 12:24
+ * Session: 19/05/2026 20:34
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "19/05/2026 12:24",
+    "update_time": "19/05/2026 20:34",
     "macro": [
         {
             "label": "SPY",
-            "value": "-0.78%",
+            "value": "-0.67%",
             "color": "red"
         },
         {
             "label": "QQQ",
-            "value": "-1.14%",
+            "value": "-0.62%",
             "color": "red"
         },
         {
             "label": "VIX",
-            "value": "18.32",
+            "value": "18.06",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1488.4",
+            "value": "$1490.3",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "538",
+            "value": "543",
             "color": "riskiaGray"
         }
     ],
@@ -40,9 +40,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Rebote técnico tras caída del 10%. Se mantiene sobre SMA 200 y el interés institucional sugiere capitulación.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 213.84,
-            "RSI_Valor": 56.06,
-            "Dist_POC_%": 90.1,
+            "Precio": 223.3,
+            "RSI_Valor": 59.56,
+            "Dist_POC_%": 98.8,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -51,9 +51,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Momentum explosivo (+16%). Entrada táctica con stop ajustado buscando extensión de la verticalidad actual.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 6.84,
-            "RSI_Valor": 43.64,
-            "Dist_POC_%": -3.0,
+            "Precio": 6.87,
+            "RSI_Valor": 44.36,
+            "Dist_POC_%": -2.0,
             "MACD_Cruce": "Mantener"
         }
     ],
@@ -64,9 +64,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Consolidación constructiva sobre SMA 200 con RSI en niveles de salud. Refugio premium ante volatilidad macro.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 297.57,
-            "RSI_Valor": 71.38,
-            "Dist_POC_%": 8.7,
+            "Precio": 298.9,
+            "RSI_Valor": 72.48,
+            "Dist_POC_%": 9.2,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -75,9 +75,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "BTC > 80k valida el modelo de negocio. Mantener exposición core al sector minero con institucionales comprando.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 46.99,
-            "RSI_Valor": 45.65,
-            "Dist_POC_%": 12.3,
+            "Precio": 47.88,
+            "RSI_Valor": 46.72,
+            "Dist_POC_%": 14.6,
             "MACD_Cruce": "Mantener"
         }
     ],
@@ -88,9 +88,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Pésimos datos de ventas de PS5 y aumento de costos de memoria. El mercado castigará la falta de guidance claro.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 23.06,
-            "RSI_Valor": 66.28,
-            "Dist_POC_%": 4.0,
+            "Precio": 22.88,
+            "RSI_Valor": 64.27,
+            "Dist_POC_%": 2.5,
             "MACD_Cruce": "Mantener"
         }
     ]
