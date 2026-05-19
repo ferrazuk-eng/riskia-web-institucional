@@ -1,41 +1,30 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 19/05/2026 09:24
+ * Session: 19/05/2026 12:24
+ * Motor: web_sync_v4.6
  */
 
-const RISKIA_DASHBOARD = {
-    "update": "19/05/2026 09:24",
-    "header": "PULSO RISKIA: ALERTA (VIX: 17.97)",
-    "status": "ALERTA",
-    "color": "#f4a261",
-    "ccl": "$1484.7",
-    "radar_text": "Carga Automática v4.2",
-    "agenda_text": "HD (Hoy) | NVDA (Mañana) | Tasa 10Y @ 4.62%",
-    "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
-    "insight_text": "Nasdaq asfixiado por tasa en 4.62%. Google y Blackstone desafían el monopolio de Nvidia."
-};
-
 const RISKIA_LIVE_DATA = {
-    "update_time": "19/05/2026 09:24",
+    "update_time": "19/05/2026 12:24",
     "macro": [
         {
-            "label": "SPY (PM)",
-            "value": "-0.48%",
+            "label": "SPY",
+            "value": "-0.78%",
             "color": "red"
         },
         {
-            "label": "QQQ (PM)",
-            "value": "-1.16%",
+            "label": "QQQ",
+            "value": "-1.14%",
             "color": "red"
         },
         {
             "label": "VIX",
-            "value": "17.97",
-            "color": "amber"
+            "value": "18.32",
+            "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1484.7",
+            "value": "$1488.4",
             "color": "blue"
         },
         {
@@ -46,52 +35,62 @@ const RISKIA_LIVE_DATA = {
     ],
     "impulso": [
         {
-            "ticker": "HD",
+            "ticker": "ARM",
             "status": "CONFIRMADO",
-            "motive": "Foco total del mercado hoy. Resultados definirán el rumbo del consumo.",
-            "Precio": 312.45,
-            "RSI_Valor": 58.12,
-            "Dist_POC_%": 4.1,
+            "motive": "Rebote técnico tras caída del 10%. Se mantiene sobre SMA 200 y el interés institucional sugiere capitulación.",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 213.84,
+            "RSI_Valor": 56.06,
+            "Dist_POC_%": 90.1,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "XLE",
+            "ticker": "JMIA",
             "status": "CONFIRMADO",
-            "motive": "Crudo sostenido cerca de $104. Escudo ante inflación y geopolítica.",
-            "Precio": 104.85,
-            "RSI_Valor": 67.21,
-            "Dist_POC_%": 7.5,
+            "motive": "Momentum explosivo (+16%). Entrada táctica con stop ajustado buscando extensión de la verticalidad actual.",
+            "section_id": 2,
+            "is_trap": false,
+            "Precio": 6.84,
+            "RSI_Valor": 43.64,
+            "Dist_POC_%": -3.0,
             "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
         {
-            "ticker": "BX",
+            "ticker": "AAPL",
             "status": "CONFIRMADO",
-            "motive": "Alianza con Google para infraestructura de IA Cloud. Valor inmobiliario-tech.",
-            "Precio": 142.34,
-            "RSI_Valor": 61.12,
-            "Dist_POC_%": 5.4,
+            "motive": "Consolidación constructiva sobre SMA 200 con RSI en niveles de salud. Refugio premium ante volatilidad macro.",
+            "section_id": 1,
+            "is_trap": false,
+            "Precio": 297.57,
+            "RSI_Valor": 71.38,
+            "Dist_POC_%": 8.7,
+            "MACD_Cruce": "Mantener"
+        },
+        {
+            "ticker": "IREN",
+            "status": "CONFIRMADO",
+            "motive": "BTC > 80k valida el modelo de negocio. Mantener exposición core al sector minero con institucionales comprando.",
+            "section_id": 1,
+            "is_trap": false,
+            "Precio": 46.99,
+            "RSI_Valor": 45.65,
+            "Dist_POC_%": 12.3,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "NVDA",
-            "status": "VIGILANCIA",
-            "motive": "Acuerdo GOOG-BX desafía su monopolio. Balance mañana. Riesgo extremo.",
-            "Precio": 218.45,
-            "RSI_Valor": 68.12,
-            "Dist_POC_%": 18.2,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "QQQ",
-            "status": "TRAMPA",
-            "motive": "Tasa 10Y en 4.62% destruye múltiplos de crecimiento. Evitar exposición pura.",
-            "Precio": 700.72,
-            "RSI_Valor": 42.12,
-            "Dist_POC_%": -3.4,
+            "ticker": "SONY",
+            "status": "VETADO",
+            "motive": "Pésimos datos de ventas de PS5 y aumento de costos de memoria. El mercado castigará la falta de guidance claro.",
+            "section_id": 3,
+            "is_trap": true,
+            "Precio": 23.06,
+            "RSI_Valor": 66.28,
+            "Dist_POC_%": 4.0,
             "MACD_Cruce": "Mantener"
         }
     ]
