@@ -1,41 +1,41 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 18/05/2026 09:06
+ * Session: 19/05/2026 09:24
  */
 
 const RISKIA_DASHBOARD = {
-    "update": "18/05/2026 09:06",
-    "header": "PULSO RISKIA: ALERTA (VIX: 19.23)",
+    "update": "19/05/2026 09:24",
+    "header": "PULSO RISKIA: ALERTA (VIX: 17.97)",
     "status": "ALERTA",
     "color": "#f4a261",
-    "ccl": "$1485.1",
+    "ccl": "$1484.7",
     "radar_text": "Carga Automática v4.2",
-    "agenda_text": "BIDU (Hoy) | Tasa 10Y 4.60% | Buffett compra $DAL",
+    "agenda_text": "HD (Hoy) | NVDA (Mañana) | Tasa 10Y @ 4.62%",
     "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
-    "insight_text": "Apertura semanal bajista por salto en tasas. Foco en activos irremplazables y rebalanceo de Buffett."
+    "insight_text": "Nasdaq asfixiado por tasa en 4.62%. Google y Blackstone desafían el monopolio de Nvidia."
 };
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "18/05/2026 09:06",
+    "update_time": "19/05/2026 09:24",
     "macro": [
         {
             "label": "SPY (PM)",
-            "value": "-1.21%",
+            "value": "-0.48%",
             "color": "red"
         },
         {
             "label": "QQQ (PM)",
-            "value": "-1.38%",
+            "value": "-1.16%",
             "color": "red"
         },
         {
             "label": "VIX",
-            "value": "19.23",
+            "value": "17.97",
             "color": "amber"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1485.1",
+            "value": "$1484.7",
             "color": "blue"
         },
         {
@@ -46,52 +46,52 @@ const RISKIA_LIVE_DATA = {
     ],
     "impulso": [
         {
-            "ticker": "AAPL",
+            "ticker": "HD",
             "status": "CONFIRMADO",
-            "motive": "Bastión de calidad y caja premium sobre SMA 200 ante corrección tech.",
-            "Precio": 299.2,
-            "RSI_Valor": 76.02,
-            "Dist_POC_%": 9.6,
+            "motive": "Foco total del mercado hoy. Resultados definirán el rumbo del consumo.",
+            "Precio": 312.45,
+            "RSI_Valor": 58.12,
+            "Dist_POC_%": 4.1,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "DAL",
+            "ticker": "XLE",
             "status": "CONFIRMADO",
-            "motive": "Berkshire inyecta $2.6B validando la rotación institucional a transporte.",
-            "Precio": 52.34,
-            "RSI_Valor": 58.12,
-            "Dist_POC_%": 4.1,
+            "motive": "Crudo sostenido cerca de $104. Escudo ante inflación y geopolítica.",
+            "Precio": 104.85,
+            "RSI_Valor": 67.21,
+            "Dist_POC_%": 7.5,
             "MACD_Cruce": "Mantener"
         }
     ],
     "ciclo": [
         {
-            "ticker": "IREN",
+            "ticker": "BX",
             "status": "CONFIRMADO",
-            "motive": "Sostén de BTC en $77k y compra de institucionales en infraestructura IA.",
-            "Precio": 53.6,
-            "RSI_Valor": 53.08,
-            "Dist_POC_%": 27.1,
+            "motive": "Alianza con Google para infraestructura de IA Cloud. Valor inmobiliario-tech.",
+            "Precio": 142.34,
+            "RSI_Valor": 61.12,
+            "Dist_POC_%": 5.4,
             "MACD_Cruce": "Mantener"
         }
     ],
     "cautela": [
         {
-            "ticker": "SONY",
-            "status": "TRAMPA",
-            "motive": "Caída de ventas en PS5 y sobrecosto de memorias. Sin guidance claro.",
-            "Precio": 20.15,
-            "RSI_Valor": 39.12,
-            "Dist_POC_%": -14.2,
+            "ticker": "NVDA",
+            "status": "VIGILANCIA",
+            "motive": "Acuerdo GOOG-BX desafía su monopolio. Balance mañana. Riesgo extremo.",
+            "Precio": 218.45,
+            "RSI_Valor": 68.12,
+            "Dist_POC_%": 18.2,
             "MACD_Cruce": "Mantener"
         },
         {
-            "ticker": "EDN",
-            "status": "EVITAR",
-            "motive": "Riesgo binario extremo por presentación de balance hoy en Argentina.",
-            "Precio": 22.15,
-            "RSI_Valor": 41.25,
-            "Dist_POC_%": -11.4,
+            "ticker": "QQQ",
+            "status": "TRAMPA",
+            "motive": "Tasa 10Y en 4.62% destruye múltiplos de crecimiento. Evitar exposición pura.",
+            "Precio": 700.72,
+            "RSI_Valor": 42.12,
+            "Dist_POC_%": -3.4,
             "MACD_Cruce": "Mantener"
         }
     ]
