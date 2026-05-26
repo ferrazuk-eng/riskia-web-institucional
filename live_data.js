@@ -1,97 +1,80 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 26/05/2026 09:45
- * Motor: web_sync_v4.6
+ * Session: 26/05/2026 13:49
  */
 
+const RISKIA_DASHBOARD = {
+    "update": "26/05/2026 13:49",
+    "header": "PULSO RISKIA: RISK-ON CUBIERTO (VIX: 17.08)",
+    "status": "OPTIMISTA",
+    "color": "#2a9d8f",
+    "ccl": "$1487.6",
+    "radar_text": "Carga Automática v4.2",
+    "agenda_text": "Tasa 10Y Cae a 4.50% | VIX Sube por Coberturas",
+    "link_reporte": "REPORTES_DIARIOS/INPUT_CANAL_RICK.md",
+    "insight_text": "Oxígeno monetario. La caída técnica de la tasa a 10 años libera al Nasdaq, pero el alza del VIX denota miedo institucional previo al Súper Miércoles."
+};
+
 const RISKIA_LIVE_DATA = {
-    "update_time": "26/05/2026 09:45",
+    "update_time": "26/05/2026 13:49",
     "macro": [
         {
             "label": "SPY",
-            "value": "+1.14%",
-            "color": "emerald"
+            "value": "+0.58%",
+            "color": "green"
         },
         {
             "label": "QQQ",
-            "value": "+1.60%",
-            "color": "emerald"
+            "value": "+1.03%",
+            "color": "green"
         },
         {
-            "label": "VIX",
-            "value": "16.72",
-            "color": "emerald"
+            "label": "Tasa 10Y",
+            "value": "4.50%",
+            "color": "green"
         },
         {
-            "label": "Dolar CCL",
-            "value": "$1486.6",
-            "color": "blue"
+            "label": "Crudo WTI",
+            "value": "$94.24",
+            "color": "red"
         },
         {
-            "label": "Riesgo Pais",
-            "value": "514",
-            "color": "riskiaGray"
+            "label": "Bitcoin",
+            "value": "$76509",
+            "color": "red"
         }
     ],
     "impulso": [
         {
-            "ticker": "ARM",
+            "ticker": "QQQ",
             "status": "CONFIRMADO",
-            "motive": "Rebote técnico tras caída del 10%. Se mantiene sobre SMA 200 y el interés institucional sugiere capitulación.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 311.2,
-            "RSI_Valor": 76.63,
-            "Dist_POC_%": 170.2,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "JMIA",
-            "status": "CONFIRMADO",
-            "motive": "Momentum explosivo (+16%). Entrada táctica con stop ajustado buscando extensión de la verticalidad actual.",
-            "section_id": 2,
-            "is_trap": false,
-            "Precio": 7.09,
-            "RSI_Valor": 45.71,
-            "Dist_POC_%": -0.8,
-            "MACD_Cruce": "Mantener"
+            "motive": "Rally alimentado por la perforación del 4.50% en la Tasa del Tesoro a 10 años.",
+            "Precio": 728.55,
+            "RSI_Valor": 68.5,
+            "Dist_POC_%": 4.5,
+            "MACD_Cruce": "Compra"
         }
     ],
     "ciclo": [
         {
-            "ticker": "AAPL",
-            "status": "CONFIRMADO",
-            "motive": "Consolidación constructiva sobre SMA 200 con RSI en niveles de salud. Refugio premium ante volatilidad macro.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 310.8,
-            "RSI_Valor": 78.63,
-            "Dist_POC_%": 19.1,
-            "MACD_Cruce": "Mantener"
-        },
-        {
-            "ticker": "IREN",
-            "status": "CONFIRMADO",
-            "motive": "BTC > 80k valida el modelo de negocio. Mantener exposición core al sector minero con institucionales comprando.",
-            "section_id": 1,
-            "is_trap": false,
-            "Precio": 59.43,
-            "RSI_Valor": 56.61,
-            "Dist_POC_%": 36.4,
-            "MACD_Cruce": "Mantener"
+            "ticker": "VIX",
+            "status": "ALERTA",
+            "motive": "Divergencia bajista. El mercado sube pero las primas de riesgo (VIX) se disparan casi 3% por coberturas institucionales.",
+            "Precio": 17.08,
+            "RSI_Valor": 55.2,
+            "Dist_POC_%": 2.1,
+            "MACD_Cruce": "Compra Fuerte"
         }
     ],
     "cautela": [
         {
-            "ticker": "SONY",
-            "status": "VETADO",
-            "motive": "Pésimos datos de ventas de PS5 y aumento de costos de memoria. El mercado castigará la falta de guidance claro.",
-            "section_id": 3,
-            "is_trap": true,
-            "Precio": 22.44,
-            "RSI_Valor": 56.49,
-            "Dist_POC_%": -0.2,
-            "MACD_Cruce": "Mantener"
+            "ticker": "BTC",
+            "status": "VIGILANCIA",
+            "motive": "Sanciones del Reino Unido al exchange HTX (conexiones con Rusia) golpean al cripto.",
+            "Precio": 76509,
+            "RSI_Valor": 42.1,
+            "Dist_POC_%": -3.5,
+            "MACD_Cruce": "Venta"
         }
     ]
 };
