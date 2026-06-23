@@ -1,26 +1,26 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 23/06/2026 08:33
+ * Session: 23/06/2026 11:01
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "23/06/2026 08:33",
+    "update_time": "23/06/2026 11:01",
     "macro": [
         {
             "label": "SPY",
-            "value": "-1.58%",
+            "value": "-1.24%",
             "color": "red"
         },
         {
             "label": "QQQ",
-            "value": "-2.95%",
+            "value": "-2.82%",
             "color": "red"
         },
         {
             "label": "VIX",
-            "value": "19.9",
-            "color": "emerald"
+            "value": "20.21",
+            "color": "amber"
         },
         {
             "label": "Dolar CCL",
@@ -40,10 +40,10 @@ const RISKIA_LIVE_DATA = {
             "motive": "Sólido avance del +4.91% consolidando su tendencia alcista (161% sobre su SMA 200).",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 382.01,
-            "RSI_Valor": 61.84,
-            "Dist_POC_%": 260.0,
-            "MACD_Cruce": "Mantener"
+            "Precio": 377.25,
+            "RSI_Valor": 56.17,
+            "Dist_POC_%": 234.6,
+            "MACD_Cruce": "🐻 Cruce Bajista"
         },
         {
             "ticker": "TIIAY",
@@ -64,9 +64,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Caída por pánico del -17.97% a $128.25. Su RSI está en nivel de pánico extremo (20.86) y cotiza un 42.89% por debajo de su SMA 200. Gran oportunidad de entrada para acumulación a mediano/largo plazo tras el recorte en las previsiones anuales de IT.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 126.97,
-            "RSI_Valor": 20.01,
-            "Dist_POC_%": -36.6,
+            "Precio": 125.07,
+            "RSI_Valor": 21.83,
+            "Dist_POC_%": -35.8,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -75,9 +75,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Cotiza un 33.80% por debajo de su SMA 200 y con RSI en pánico (27.79). Continúa siendo una excelente alternativa de valor tecnológico.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 196.01,
-            "RSI_Valor": 27.71,
-            "Dist_POC_%": -21.2,
+            "Precio": 197.51,
+            "RSI_Valor": 30.76,
+            "Dist_POC_%": -19.8,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -99,9 +99,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "El activo local se mantiene en niveles de sobrecompra extrema (RSI de 70.01 y 26% de distancia de su SMA 200). Alto riesgo de retroceso técnico.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 53.33,
-            "RSI_Valor": 59.21,
-            "Dist_POC_%": 10.7,
+            "Precio": 52.03,
+            "RSI_Valor": 55.19,
+            "Dist_POC_%": 8.0,
             "MACD_Cruce": "Mantener"
         }
     ]
