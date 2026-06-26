@@ -1,26 +1,26 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 25/06/2026 18:50
+ * Session: 26/06/2026 09:08
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "25/06/2026 18:50",
+    "update_time": "26/06/2026 09:08",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.14%",
-            "color": "emerald"
+            "value": "-0.56%",
+            "color": "red"
         },
         {
             "label": "QQQ",
-            "value": "+0.81%",
-            "color": "emerald"
+            "value": "-0.59%",
+            "color": "red"
         },
         {
             "label": "VIX",
-            "value": "18.89",
-            "color": "emerald"
+            "value": "20.03",
+            "color": "amber"
         },
         {
             "label": "Dolar CCL",
@@ -29,7 +29,7 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "Riesgo Pais",
-            "value": "433",
+            "value": "437",
             "color": "riskiaGray"
         }
     ],
@@ -40,7 +40,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "Sólido avance del +4.91% consolidando su tendencia alcista (161% sobre su SMA 200).",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 347.0,
+            "Precio": 332.5,
             "RSI_Valor": 50.73,
             "Dist_POC_%": 207.0,
             "MACD_Cruce": "Mantener"
@@ -64,7 +64,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "Caída por pánico del -17.97% a $128.25. Su RSI está en nivel de pánico extremo (20.86) y cotiza un 42.89% por debajo de su SMA 200. Gran oportunidad de entrada para acumulación a mediano/largo plazo tras el recorte en las previsiones anuales de IT.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 126.09,
+            "Precio": 127.89,
             "RSI_Valor": 23.52,
             "Dist_POC_%": -36.1,
             "MACD_Cruce": "Mantener"
@@ -75,7 +75,7 @@ const RISKIA_LIVE_DATA = {
             "motive": "Cotiza un 33.80% por debajo de su SMA 200 y con RSI en pánico (27.79). Continúa siendo una excelente alternativa de valor tecnológico.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 194.4,
+            "Precio": 195.25,
             "RSI_Valor": 28.36,
             "Dist_POC_%": -21.8,
             "MACD_Cruce": "Mantener"
@@ -86,9 +86,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Caída diaria del -6.67% llevando al RSI a la zona de pánico (30.50) y cotizando un 16.09% por debajo de su SMA 200.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 12.6,
-            "RSI_Valor": 31.78,
-            "Dist_POC_%": -11.6,
+            "Precio": 12.59,
+            "RSI_Valor": 31.58,
+            "Dist_POC_%": -11.7,
             "MACD_Cruce": "Mantener"
         }
     ],
