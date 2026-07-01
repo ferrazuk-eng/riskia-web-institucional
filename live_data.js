@@ -1,30 +1,30 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 01/07/2026 09:40
+ * Session: 01/07/2026 12:25
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "01/07/2026 09:40",
+    "update_time": "01/07/2026 12:25",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.58%",
+            "value": "+0.16%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+1.16%",
-            "color": "emerald"
+            "value": "-0.91%",
+            "color": "red"
         },
         {
             "label": "VIX",
-            "value": "16.78",
+            "value": "16.41",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1563.5",
+            "value": "$1569.3",
             "color": "blue"
         },
         {
@@ -40,9 +40,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Sólido avance del +4.91% consolidando su tendencia alcista (161% sobre su SMA 200).",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 349.34,
-            "RSI_Valor": 52.13,
-            "Dist_POC_%": 213.1,
+            "Precio": 337.95,
+            "RSI_Valor": 48.95,
+            "Dist_POC_%": 198.7,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -64,9 +64,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Caída por pánico del -17.97% a $128.25. Su RSI está en nivel de pánico extremo (20.86) y cotiza un 42.89% por debajo de su SMA 200. Gran oportunidad de entrada para acumulación a mediano/largo plazo tras el recorte en las previsiones anuales de IT.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 125.5,
-            "RSI_Valor": 25.27,
-            "Dist_POC_%": -36.8,
+            "Precio": 130.25,
+            "RSI_Valor": 31.94,
+            "Dist_POC_%": -34.0,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -75,10 +75,10 @@ const RISKIA_LIVE_DATA = {
             "motive": "Cotiza un 33.80% por debajo de su SMA 200 y con RSI en pánico (27.79). Continúa siendo una excelente alternativa de valor tecnológico.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 207.79,
-            "RSI_Valor": 39.26,
-            "Dist_POC_%": -16.8,
-            "MACD_Cruce": "Mantener"
+            "Precio": 212.33,
+            "RSI_Valor": 45.35,
+            "Dist_POC_%": -13.6,
+            "MACD_Cruce": "🐂 Cruce Alcista"
         },
         {
             "ticker": "MBG",
@@ -86,9 +86,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Caída diaria del -6.67% llevando al RSI a la zona de pánico (30.50) y cotizando un 16.09% por debajo de su SMA 200.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 12.48,
-            "RSI_Valor": 33.37,
-            "Dist_POC_%": -12.2,
+            "Precio": 12.39,
+            "RSI_Valor": 32.41,
+            "Dist_POC_%": -12.8,
             "MACD_Cruce": "Mantener"
         }
     ],
@@ -99,9 +99,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "El activo local se mantiene en niveles de sobrecompra extrema (RSI de 70.01 y 26% de distancia de su SMA 200). Alto riesgo de retroceso técnico.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 50.03,
-            "RSI_Valor": 50.03,
-            "Dist_POC_%": 3.9,
+            "Precio": 48.53,
+            "RSI_Valor": 46.38,
+            "Dist_POC_%": 1.1,
             "MACD_Cruce": "Mantener"
         }
     ]
