@@ -1,35 +1,35 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 01/07/2026 16:18
+ * Session: 02/07/2026 08:48
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "01/07/2026 16:18",
+    "update_time": "02/07/2026 08:48",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.01%",
-            "color": "emerald"
+            "value": "-0.08%",
+            "color": "red"
         },
         {
             "label": "QQQ",
-            "value": "-1.34%",
+            "value": "-1.72%",
             "color": "red"
         },
         {
             "label": "VIX",
-            "value": "16.39",
+            "value": "16.62",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1574.1",
+            "value": "$1570.6",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "431",
+            "value": "426",
             "color": "riskiaGray"
         }
     ],
@@ -40,10 +40,10 @@ const RISKIA_LIVE_DATA = {
             "motive": "Sólido avance del +4.91% consolidando su tendencia alcista (161% sobre su SMA 200).",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 0.0,
-            "RSI_Valor": 0.0,
-            "Dist_POC_%": 0.0,
-            "MACD_Cruce": "---"
+            "Precio": 331.0,
+            "RSI_Valor": 48.81,
+            "Dist_POC_%": 198.0,
+            "MACD_Cruce": "Mantener"
         },
         {
             "ticker": "TIIAY",
@@ -51,9 +51,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Suba del +4.10% con instituciones comprando y RSI en zona de euforia (85.56), marcando fuerte aceleración táctica.",
             "section_id": 2,
             "is_trap": false,
-            "Precio": 9.11,
-            "RSI_Valor": 47.41,
-            "Dist_POC_%": 12.7,
+            "Precio": 9.32,
+            "RSI_Valor": 50.87,
+            "Dist_POC_%": 15.3,
             "MACD_Cruce": "Mantener"
         }
     ],
@@ -64,9 +64,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "Caída por pánico del -17.97% a $128.25. Su RSI está en nivel de pánico extremo (20.86) y cotiza un 42.89% por debajo de su SMA 200. Gran oportunidad de entrada para acumulación a mediano/largo plazo tras el recorte en las previsiones anuales de IT.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 131.47,
-            "RSI_Valor": 33.39,
-            "Dist_POC_%": -33.3,
+            "Precio": 126.41,
+            "RSI_Valor": 33.01,
+            "Dist_POC_%": -33.4,
             "MACD_Cruce": "Mantener"
         },
         {
@@ -75,8 +75,8 @@ const RISKIA_LIVE_DATA = {
             "motive": "Cotiza un 33.80% por debajo de su SMA 200 y con RSI en pánico (27.79). Continúa siendo una excelente alternativa de valor tecnológico.",
             "section_id": 1,
             "is_trap": false,
-            "Precio": 210.88,
-            "RSI_Valor": 44.14,
+            "Precio": 216.75,
+            "RSI_Valor": 44.25,
             "Dist_POC_%": -14.2,
             "MACD_Cruce": "🐂 Cruce Alcista"
         },
@@ -99,9 +99,9 @@ const RISKIA_LIVE_DATA = {
             "motive": "El activo local se mantiene en niveles de sobrecompra extrema (RSI de 70.01 y 26% de distancia de su SMA 200). Alto riesgo de retroceso técnico.",
             "section_id": 3,
             "is_trap": true,
-            "Precio": 48.44,
-            "RSI_Valor": 45.94,
-            "Dist_POC_%": 0.8,
+            "Precio": 49.15,
+            "RSI_Valor": 47.28,
+            "Dist_POC_%": 1.9,
             "MACD_Cruce": "Mantener"
         }
     ]
