@@ -1,11 +1,11 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 31/07/2026 13:14
+ * Session: 31/07/2026 17:31
  * Motor: web_sync_v5.0
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "31/07/2026 13:14",
+    "update_time": "31/07/2026 17:31",
     "macro": [
         {
             "label": "SPY",
@@ -19,12 +19,12 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "VIX",
-            "value": "17.2",
+            "value": "15.99",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1573.4",
+            "value": "$1575.7",
             "color": "blue"
         },
         {
