@@ -1,11 +1,11 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 01/08/2026 09:56
+ * Session: 01/08/2026 11:45
  * Motor: web_sync_v5.0
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "01/08/2026 09:56",
+    "update_time": "01/08/2026 11:45",
     "macro": [
         {
             "label": "SPY",
@@ -29,7 +29,7 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "Riesgo Pais",
-            "value": "N/D",
+            "value": "441",
             "color": "riskiaGray"
         }
     ],
