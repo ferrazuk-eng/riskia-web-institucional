@@ -1,20 +1,20 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 31/07/2026 19:10
+ * Session: 01/08/2026 09:56
  * Motor: web_sync_v5.0
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "31/07/2026 19:10",
+    "update_time": "01/08/2026 09:56",
     "macro": [
         {
             "label": "SPY",
-            "value": "+0.40%",
+            "value": "+0.34%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+1.25%",
+            "value": "+0.13%",
             "color": "emerald"
         },
         {
@@ -29,7 +29,7 @@ const RISKIA_LIVE_DATA = {
         },
         {
             "label": "Riesgo Pais",
-            "value": "441",
+            "value": "N/D",
             "color": "riskiaGray"
         }
     ],
