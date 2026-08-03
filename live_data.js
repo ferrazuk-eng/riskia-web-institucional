@@ -1,35 +1,35 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 17/07/2026 18:08
+ * Session: 03/08/2026 09:31
  * Motor: web_sync_v4.6
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "17/07/2026 18:08",
+    "update_time": "03/08/2026 09:31",
     "macro": [
         {
             "label": "SPY",
-            "value": "-0.34%",
-            "color": "red"
+            "value": "+1.17%",
+            "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "-1.30%",
-            "color": "red"
+            "value": "+0.68%",
+            "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "16.29",
+            "value": "16.05",
             "color": "emerald"
         },
         {
             "label": "Dolar CCL",
-            "value": "$1564.4",
+            "value": "$1575.7",
             "color": "blue"
         },
         {
             "label": "Riesgo Pais",
-            "value": "410",
+            "value": "430",
             "color": "riskiaGray"
         }
     ],
