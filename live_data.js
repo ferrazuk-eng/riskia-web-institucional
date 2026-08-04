@@ -1,25 +1,25 @@
 /** 
  * RISKIA AUTO-GENERATED DATA 
- * Session: 04/08/2026 08:33
+ * Session: 04/08/2026 09:24
  * Motor: web_sync_v5.0
  */
 
 const RISKIA_LIVE_DATA = {
-    "update_time": "04/08/2026 08:33",
+    "update_time": "04/08/2026 09:24",
     "macro": [
         {
             "label": "SPY",
-            "value": "+1.70%",
+            "value": "+1.79%",
             "color": "emerald"
         },
         {
             "label": "QQQ",
-            "value": "+2.69%",
+            "value": "+2.91%",
             "color": "emerald"
         },
         {
             "label": "VIX",
-            "value": "15.65",
+            "value": "15.69",
             "color": "emerald"
         },
         {
